@@ -1,0 +1,670 @@
+2012-05-06 00:14:13,549,549 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.xhrstream.XHRStreamingTransport instance at 0x1fed560>
+2012-05-06 00:14:13,550,550 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPOption object at 0x1fee510> packetId=1
+2012-05-06 00:14:13,550,550 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPOption object at 0x1fee690> packetId=2
+2012-05-06 00:14:13,560,560 DEBUG [orbited.cometsession.TCPConnectionResource] render: request=<POST /tcp/bb74d6ab2d8e49cc943328d08cc49b10?nocache=0.3382738623616671&ack=2 HTTP/1.1>
+2012-05-06 00:14:13,560,560 DEBUG [orbited.cometsession.TCPConnectionResource] render: request.content='11,114,data020,bG9jYWxob3N0Ojc3NzcK'
+2012-05-06 00:14:13,560,560 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=2
+2012-05-06 00:14:13,560,560 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPOption object at 0x1fee510>, 1), (<orbited.cometsession.TCPOption object at 0x1fee690>, 2)]
+2012-05-06 00:14:13,561,561 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2012-05-06 00:14:13,561,561 DEBUG [orbited.cometsession.TCPConnectionResource] RECV: 11,114,data020,bG9jYWxob3N0Ojc3NzcK
+2012-05-06 00:14:13,561,561 DEBUG [orbited.cometsession.TCPConnectionResource] ['11,114,data020,bG9jYWxob3N0Ojc3NzcK', [], []]
+2012-05-06 00:14:13,562,562 DEBUG [orbited.cometsession.TCPConnectionResource] ['14,data020,bG9jYWxob3N0Ojc3NzcK', [], ['1']]
+2012-05-06 00:14:13,562,562 DEBUG [orbited.cometsession.TCPConnectionResource] ['020,bG9jYWxob3N0Ojc3NzcK', [], ['1', 'data']]
+2012-05-06 00:14:13,562,562 DEBUG [orbited.cometsession.TCPConnectionResource] parseData: frame=['1', 'data', 'bG9jYWxob3N0Ojc3NzcK']
+2012-05-06 00:14:13,571,571 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='1' packetId=3
+2012-05-06 00:14:13,628,628 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.4 00:14:13_06/05/12\r\ntemp 31.4 00:14:13_06/05/12\r\no2 05.0 00:14:13_06/05/12\r\nSCADA nz 00:14:13_06/05/12\r\n' packetId=4
+2012-05-06 00:14:14,824,824 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 05.1 00:14:14_06/05/12\r\n' packetId=5
+2012-05-06 00:14:15,425,425 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.3 00:14:15_06/05/12\r\n' packetId=6
+2012-05-06 00:14:16,195,195 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:14:16_06/05/12\r\n' packetId=7
+2012-05-06 00:14:17,121,121 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 05.0 00:14:17_06/05/12\r\n' packetId=8
+2012-05-06 00:14:17,391,391 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 05.1 00:14:17_06/05/12\r\n' packetId=9
+2012-05-06 00:14:17,791,791 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.3 00:14:17_06/05/12\r\n' packetId=10
+2012-05-06 00:14:18,231,231 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:14:18_06/05/12\r\n' packetId=11
+2012-05-06 00:14:21,553,553 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.xhrstream.XHRStreamingTransport instance at 0x1fedd88>
+2012-05-06 00:14:21,553,553 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=11
+2012-05-06 00:14:21,553,553 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[('1', 3), ('ph 07.4 00:14:13_06/05/12\r\ntemp 31.4 00:14:13_06/05/12\r\no2 05.0 00:14:13_06/05/12\r\nSCADA nz 00:14:13_06/05/12\r\n', 4), ('o2 05.1 00:14:14_06/05/12\r\n', 5), ('temp 31.3 00:14:15_06/05/12\r\n', 6), ('temp 31.4 00:14:16_06/05/12\r\n', 7), ('o2 05.0 00:14:17_06/05/12\r\n', 8), ('o2 05.1 00:14:17_06/05/12\r\n', 9), ('temp 31.3 00:14:17_06/05/12\r\n', 10), ('temp 31.4 00:14:18_06/05/12\r\n', 11)]
+2012-05-06 00:14:21,554,554 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2012-05-06 00:14:21,780,780 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.xhrstream.XHRStreamingTransport instance at 0x1ffa320>
+2012-05-06 00:14:21,780,780 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPOption object at 0x1ff95d0> packetId=1
+2012-05-06 00:14:21,780,780 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPOption object at 0x1ff96d0> packetId=2
+2012-05-06 00:14:21,788,788 DEBUG [orbited.cometsession.TCPConnectionResource] render: request=<POST /tcp/0cac741e2f204d009cdef35c87873d01?nocache=0.2928739957076757&ack=2 HTTP/1.1>
+2012-05-06 00:14:21,788,788 DEBUG [orbited.cometsession.TCPConnectionResource] render: request.content='11,114,data020,bG9jYWxob3N0Ojc3NzcK'
+2012-05-06 00:14:21,788,788 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=2
+2012-05-06 00:14:21,789,789 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPOption object at 0x1ff95d0>, 1), (<orbited.cometsession.TCPOption object at 0x1ff96d0>, 2)]
+2012-05-06 00:14:21,789,789 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2012-05-06 00:14:21,789,789 DEBUG [orbited.cometsession.TCPConnectionResource] RECV: 11,114,data020,bG9jYWxob3N0Ojc3NzcK
+2012-05-06 00:14:21,789,789 DEBUG [orbited.cometsession.TCPConnectionResource] ['11,114,data020,bG9jYWxob3N0Ojc3NzcK', [], []]
+2012-05-06 00:14:21,789,789 DEBUG [orbited.cometsession.TCPConnectionResource] ['14,data020,bG9jYWxob3N0Ojc3NzcK', [], ['1']]
+2012-05-06 00:14:21,790,790 DEBUG [orbited.cometsession.TCPConnectionResource] ['020,bG9jYWxob3N0Ojc3NzcK', [], ['1', 'data']]
+2012-05-06 00:14:21,790,790 DEBUG [orbited.cometsession.TCPConnectionResource] parseData: frame=['1', 'data', 'bG9jYWxob3N0Ojc3NzcK']
+2012-05-06 00:14:21,796,796 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='1' packetId=3
+2012-05-06 00:14:21,797,797 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.4 00:14:21_06/05/12\r\ntemp 31.4 00:14:21_06/05/12\r\no2 05.1 00:14:21_06/05/12\r\nSCADA nz 00:14:21_06/05/12\r\n' packetId=4
+2012-05-06 00:14:22,925,925 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:14:22_06/05/12\r\ntemp 31.5 00:14:22_06/05/12\r\n' packetId=12
+2012-05-06 00:14:22,930,930 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:14:22_06/05/12\r\ntemp 31.5 00:14:22_06/05/12\r\n' packetId=5
+2012-05-06 00:14:25,134,134 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.6 00:14:25_06/05/12\r\n' packetId=13
+2012-05-06 00:14:25,135,135 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.6 00:14:25_06/05/12\r\n' packetId=6
+2012-05-06 00:14:26,296,296 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.5 00:14:26_06/05/12\r\n' packetId=14
+2012-05-06 00:14:26,297,297 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.5 00:14:26_06/05/12\r\n' packetId=7
+2012-05-06 00:14:26,991,991 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 05.0 00:14:26_06/05/12\r\n' packetId=15
+2012-05-06 00:14:26,992,992 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 05.0 00:14:26_06/05/12\r\n' packetId=8
+2012-05-06 00:14:27,286,286 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 05.1 00:14:27_06/05/12\r\n' packetId=16
+2012-05-06 00:14:27,289,289 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 05.1 00:14:27_06/05/12\r\n' packetId=9
+2012-05-06 00:14:29,140,140 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.6 00:14:29_06/05/12\r\n' packetId=17
+2012-05-06 00:14:29,144,144 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.6 00:14:29_06/05/12\r\n' packetId=10
+2012-05-06 00:14:29,895,895 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.5 00:14:29_06/05/12\r\n' packetId=18
+2012-05-06 00:14:29,899,899 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.5 00:14:29_06/05/12\r\n' packetId=11
+2012-05-06 00:14:30,372,372 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.6 00:14:30_06/05/12\r\n' packetId=19
+2012-05-06 00:14:30,376,376 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.6 00:14:30_06/05/12\r\n' packetId=12
+2012-05-06 00:14:32,859,859 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.5 00:14:32_06/05/12\r\n' packetId=20
+2012-05-06 00:14:32,860,860 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.5 00:14:32_06/05/12\r\n' packetId=13
+2012-05-06 00:14:33,625,625 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.6 00:14:33_06/05/12\r\n' packetId=21
+2012-05-06 00:14:33,631,631 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.6 00:14:33_06/05/12\r\n' packetId=14
+2012-05-06 00:14:33,914,914 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.4 00:14:33_06/05/12\r\n' packetId=22
+2012-05-06 00:14:33,915,915 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.4 00:14:33_06/05/12\r\n' packetId=15
+2012-05-06 00:14:36,281,281 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.5 00:14:36_06/05/12\r\no2 05.0 00:14:36_06/05/12\r\n' packetId=23
+2012-05-06 00:14:36,283,283 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.5 00:14:36_06/05/12\r\no2 05.0 00:14:36_06/05/12\r\n' packetId=16
+2012-05-06 00:14:36,583,583 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 05.1 00:14:36_06/05/12\r\n' packetId=24
+2012-05-06 00:14:36,584,584 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 05.1 00:14:36_06/05/12\r\n' packetId=17
+2012-05-06 00:14:37,062,062 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='SCADA dnz 00:14:37_06/05/12\r\n' packetId=25
+2012-05-06 00:14:37,065,065 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='SCADA dnz 00:14:37_06/05/12\r\n' packetId=18
+2012-05-06 00:14:37,293,293 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 05.0 00:14:37_06/05/12\r\n' packetId=26
+2012-05-06 00:14:37,296,296 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 05.0 00:14:37_06/05/12\r\n' packetId=19
+2012-05-06 00:14:37,316,316 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='caldera False 00:14:37_06/05/12\r\n' packetId=27
+2012-05-06 00:14:37,317,317 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='caldera False 00:14:37_06/05/12\r\n' packetId=20
+2012-05-06 00:14:40,546,546 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.9 00:14:40_06/05/12\r\n' packetId=28
+2012-05-06 00:14:40,547,547 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.9 00:14:40_06/05/12\r\n' packetId=21
+2012-05-06 00:14:40,905,905 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 05.0 00:14:40_06/05/12\r\n' packetId=29
+2012-05-06 00:14:40,906,906 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 05.0 00:14:40_06/05/12\r\n' packetId=22
+2012-05-06 00:14:41,529,529 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:14:41_06/05/12\r\no2 04.9 00:14:41_06/05/12\r\n' packetId=30
+2012-05-06 00:14:41,591,591 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:14:41_06/05/12\r\no2 04.9 00:14:41_06/05/12\r\n' packetId=23
+2012-05-06 00:14:42,313,313 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:14:42_06/05/12\r\n' packetId=31
+2012-05-06 00:14:42,315,315 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:14:42_06/05/12\r\n' packetId=24
+2012-05-06 00:14:44,674,674 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.3 00:14:44_06/05/12\r\n' packetId=32
+2012-05-06 00:14:44,676,676 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.3 00:14:44_06/05/12\r\n' packetId=25
+2012-05-06 00:14:44,853,853 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:14:44_06/05/12\r\n' packetId=33
+2012-05-06 00:14:44,854,854 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:14:44_06/05/12\r\n' packetId=26
+2012-05-06 00:14:45,213,213 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.3 00:14:45_06/05/12\r\no2 04.8 00:14:45_06/05/12\r\n' packetId=34
+2012-05-06 00:14:45,276,276 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.3 00:14:45_06/05/12\r\no2 04.8 00:14:45_06/05/12\r\n' packetId=27
+2012-05-06 00:14:45,891,891 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:14:45_06/05/12\r\n' packetId=35
+2012-05-06 00:14:45,893,893 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:14:45_06/05/12\r\n' packetId=28
+2012-05-06 00:14:46,900,900 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.9 00:14:46_06/05/12\r\n' packetId=36
+2012-05-06 00:14:46,968,968 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.9 00:14:46_06/05/12\r\n' packetId=29
+2012-05-06 00:14:48,083,083 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.6 00:14:47_06/05/12\r\n' packetId=37
+2012-05-06 00:14:48,088,088 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.6 00:14:47_06/05/12\r\n' packetId=30
+2012-05-06 00:14:48,365,365 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:14:48_06/05/12\r\n' packetId=38
+2012-05-06 00:14:48,447,447 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:14:48_06/05/12\r\n' packetId=31
+2012-05-06 00:14:48,576,576 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.6 00:14:48_06/05/12\r\no2 04.8 00:14:48_06/05/12\r\n' packetId=39
+2012-05-06 00:14:48,577,577 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.6 00:14:48_06/05/12\r\no2 04.8 00:14:48_06/05/12\r\n' packetId=32
+2012-05-06 00:14:51,554,554 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x1ff98d0> packetId=40
+2012-05-06 00:14:51,789,789 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x1ff9910> packetId=33
+2012-05-06 00:14:51,840,840 DEBUG [orbited.cometsession.TCPConnectionResource] render: request=<POST /tcp/0cac741e2f204d009cdef35c87873d01?nocache=0.2928739957076757&ack=33 HTTP/1.1>
+2012-05-06 00:14:51,841,841 DEBUG [orbited.cometsession.TCPConnectionResource] render: request.content='11,214,ping00,'
+2012-05-06 00:14:51,841,841 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=33
+2012-05-06 00:14:51,841,841 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[('1', 3), ('ph 07.4 00:14:21_06/05/12\r\ntemp 31.4 00:14:21_06/05/12\r\no2 05.1 00:14:21_06/05/12\r\nSCADA nz 00:14:21_06/05/12\r\n', 4), ('ph 07.5 00:14:22_06/05/12\r\ntemp 31.5 00:14:22_06/05/12\r\n', 5), ('temp 31.6 00:14:25_06/05/12\r\n', 6), ('temp 31.5 00:14:26_06/05/12\r\n', 7), ('o2 05.0 00:14:26_06/05/12\r\n', 8), ('o2 05.1 00:14:27_06/05/12\r\n', 9), ('temp 31.6 00:14:29_06/05/12\r\n', 10), ('temp 31.5 00:14:29_06/05/12\r\n', 11), ('temp 31.6 00:14:30_06/05/12\r\n', 12), ('temp 31.5 00:14:32_06/05/12\r\n', 13), ('temp 31.6 00:14:33_06/05/12\r\n', 14), ('ph 07.4 00:14:33_06/05/12\r\n', 15), ('temp 31.5 00:14:36_06/05/12\r\no2 05.0 00:14:36_06/05/12\r\n', 16), ('o2 05.1 00:14:36_06/05/12\r\n', 17), ('SCADA dnz 00:14:37_06/05/12\r\n', 18), ('o2 05.0 00:14:37_06/05/12\r\n', 19), ('caldera False 00:14:37_06/05/12\r\n', 20), ('o2 04.9 00:14:40_06/05/12\r\n', 21), ('o2 05.0 00:14:40_06/05/12\r\n', 22), ('temp 31.4 00:14:41_06/05/12\r\no2 04.9 00:14:41_06/05/12\r\n', 23), ('ph 07.5 00:14:42_06/05/12\r\n', 24), ('temp 31.3 00:14:44_06/05/12\r\n', 25), ('temp 31.4 00:14:44_06/05/12\r\n', 26), ('temp 31.3 00:14:45_06/05/12\r\no2 04.8 00:14:45_06/05/12\r\n', 27), ('temp 31.4 00:14:45_06/05/12\r\n', 28), ('o2 04.9 00:14:46_06/05/12\r\n', 29), ('ph 07.6 00:14:47_06/05/12\r\n', 30), ('ph 07.5 00:14:48_06/05/12\r\n', 31), ('ph 07.6 00:14:48_06/05/12\r\no2 04.8 00:14:48_06/05/12\r\n', 32), (<orbited.cometsession.TCPPing object at 0x1ff9910>, 33)]
+2012-05-06 00:14:51,841,841 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2012-05-06 00:14:51,842,842 DEBUG [orbited.cometsession.TCPConnectionResource] RECV: 11,214,ping00,
+2012-05-06 00:14:51,842,842 DEBUG [orbited.cometsession.TCPConnectionResource] ['11,214,ping00,', [], []]
+2012-05-06 00:14:51,842,842 DEBUG [orbited.cometsession.TCPConnectionResource] ['14,ping00,', [], ['2']]
+2012-05-06 00:14:51,843,843 DEBUG [orbited.cometsession.TCPConnectionResource] ['00,', [], ['2', 'ping']]
+2012-05-06 00:14:51,843,843 DEBUG [orbited.cometsession.TCPConnectionResource] parseData: frame=['2', 'ping', '']
+2012-05-06 00:14:51,843,843 DEBUG [orbited.cometsession.TCPConnectionResource] parseData: PING? PONG!
+2012-05-06 00:14:52,950,950 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:14:52_06/05/12\r\ntemp 31.3 00:14:52_06/05/12\r\n' packetId=41
+2012-05-06 00:14:52,954,954 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:14:52_06/05/12\r\ntemp 31.3 00:14:52_06/05/12\r\n' packetId=34
+2012-05-06 00:14:53,335,335 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.6 00:14:53_06/05/12\r\n' packetId=42
+2012-05-06 00:14:53,336,336 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.6 00:14:53_06/05/12\r\n' packetId=35
+2012-05-06 00:14:53,629,629 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.9 00:14:53_06/05/12\r\n' packetId=43
+2012-05-06 00:14:53,630,630 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.9 00:14:53_06/05/12\r\n' packetId=36
+2012-05-06 00:14:54,568,568 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:14:54_06/05/12\r\n' packetId=44
+2012-05-06 00:14:54,569,569 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:14:54_06/05/12\r\n' packetId=37
+2012-05-06 00:14:54,864,864 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.6 00:14:54_06/05/12\r\no2 04.8 00:14:54_06/05/12\r\n' packetId=45
+2012-05-06 00:14:54,865,865 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.6 00:14:54_06/05/12\r\no2 04.8 00:14:54_06/05/12\r\n' packetId=38
+2012-05-06 00:14:55,275,275 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:14:55_06/05/12\r\n' packetId=46
+2012-05-06 00:14:55,276,276 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:14:55_06/05/12\r\n' packetId=39
+2012-05-06 00:14:55,538,538 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.6 00:14:55_06/05/12\r\n' packetId=47
+2012-05-06 00:14:55,539,539 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.6 00:14:55_06/05/12\r\n' packetId=40
+2012-05-06 00:14:55,934,934 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.9 00:14:55_06/05/12\r\n' packetId=48
+2012-05-06 00:14:55,935,935 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.9 00:14:55_06/05/12\r\n' packetId=41
+2012-05-06 00:14:57,553,553 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:14:57_06/05/12\r\n' packetId=49
+2012-05-06 00:14:57,555,555 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:14:57_06/05/12\r\n' packetId=42
+2012-05-06 00:14:58,545,545 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:14:58_06/05/12\r\n' packetId=50
+2012-05-06 00:14:58,546,546 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:14:58_06/05/12\r\n' packetId=43
+2012-05-06 00:15:05,279,279 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.4 00:15:05_06/05/12\r\n' packetId=51
+2012-05-06 00:15:05,280,280 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.4 00:15:05_06/05/12\r\n' packetId=44
+2012-05-06 00:15:07,344,344 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:15:07_06/05/12\r\n' packetId=52
+2012-05-06 00:15:07,409,409 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:15:07_06/05/12\r\n' packetId=45
+2012-05-06 00:15:10,307,307 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='caldera True 00:15:10_06/05/12\r\n' packetId=53
+2012-05-06 00:15:10,310,310 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='caldera True 00:15:10_06/05/12\r\n' packetId=46
+2012-05-06 00:15:10,693,693 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.5 00:15:10_06/05/12\r\n' packetId=54
+2012-05-06 00:15:10,768,768 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.5 00:15:10_06/05/12\r\n' packetId=47
+2012-05-06 00:15:10,989,989 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='SCADA nz 00:15:10_06/05/12\r\n' packetId=55
+2012-05-06 00:15:10,991,991 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='SCADA nz 00:15:10_06/05/12\r\n' packetId=48
+2012-05-06 00:15:12,662,662 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.8 00:15:12_06/05/12\r\n' packetId=56
+2012-05-06 00:15:12,666,666 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.8 00:15:12_06/05/12\r\n' packetId=49
+2012-05-06 00:15:13,082,082 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.6 00:15:13_06/05/12\r\n' packetId=57
+2012-05-06 00:15:13,083,083 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.6 00:15:13_06/05/12\r\n' packetId=50
+2012-05-06 00:15:14,663,663 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:15:14_06/05/12\r\no2 04.9 00:15:14_06/05/12\r\n' packetId=58
+2012-05-06 00:15:14,664,664 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:15:14_06/05/12\r\no2 04.9 00:15:14_06/05/12\r\n' packetId=51
+2012-05-06 00:15:14,951,951 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.6 00:15:14_06/05/12\r\n' packetId=59
+2012-05-06 00:15:14,953,953 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.6 00:15:14_06/05/12\r\n' packetId=52
+2012-05-06 00:15:15,349,349 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.8 00:15:15_06/05/12\r\n' packetId=60
+2012-05-06 00:15:15,350,350 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.8 00:15:15_06/05/12\r\n' packetId=53
+2012-05-06 00:15:17,049,049 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:15:17_06/05/12\r\n' packetId=61
+2012-05-06 00:15:17,123,123 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:15:17_06/05/12\r\n' packetId=54
+2012-05-06 00:15:17,395,395 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.6 00:15:17_06/05/12\r\n' packetId=62
+2012-05-06 00:15:17,398,398 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.6 00:15:17_06/05/12\r\n' packetId=55
+2012-05-06 00:15:17,708,708 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:15:17_06/05/12\r\n' packetId=63
+2012-05-06 00:15:17,804,804 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:15:17_06/05/12\r\n' packetId=56
+2012-05-06 00:15:19,350,350 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.7 00:15:19_06/05/12\r\n' packetId=64
+2012-05-06 00:15:19,353,353 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.7 00:15:19_06/05/12\r\n' packetId=57
+2012-05-06 00:15:21,555,555 DEBUG [orbited.cometsession.TCPConnectionResource] close reason=timeout <orbited.cometsession.TCPConnectionResource instance at 0x1fedb90>
+2012-05-06 00:15:21,555,555 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPClose object at 0x1ff9990> packetId=65
+2012-05-06 00:15:21,556,556 DEBUG [orbited.cometsession.TCPConnectionResource] connectionLost... already triggered? False
+2012-05-06 00:15:21,556,556 DEBUG [orbited.cometsession.TCPConnectionResource] do trigger
+2012-05-06 00:15:21,557,557 DEBUG [orbited.cometsession.TCPConnectionResource] close called - already closed
+2012-05-06 00:15:21,705,705 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:15:21_06/05/12\r\n' packetId=58
+2012-05-06 00:15:21,842,842 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x1fe8d50> packetId=59
+2012-05-06 00:15:21,848,848 DEBUG [orbited.cometsession.TCPConnectionResource] render: request=<POST /tcp/0cac741e2f204d009cdef35c87873d01?nocache=0.2928739957076757&ack=59 HTTP/1.1>
+2012-05-06 00:15:21,848,848 DEBUG [orbited.cometsession.TCPConnectionResource] render: request.content='11,314,ping00,'
+2012-05-06 00:15:21,848,848 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=59
+2012-05-06 00:15:21,848,848 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[('ph 07.5 00:14:52_06/05/12\r\ntemp 31.3 00:14:52_06/05/12\r\n', 34), ('ph 07.6 00:14:53_06/05/12\r\n', 35), ('o2 04.9 00:14:53_06/05/12\r\n', 36), ('ph 07.5 00:14:54_06/05/12\r\n', 37), ('ph 07.6 00:14:54_06/05/12\r\no2 04.8 00:14:54_06/05/12\r\n', 38), ('ph 07.5 00:14:55_06/05/12\r\n', 39), ('ph 07.6 00:14:55_06/05/12\r\n', 40), ('o2 04.9 00:14:55_06/05/12\r\n', 41), ('ph 07.5 00:14:57_06/05/12\r\n', 42), ('temp 31.4 00:14:58_06/05/12\r\n', 43), ('ph 07.4 00:15:05_06/05/12\r\n', 44), ('ph 07.5 00:15:07_06/05/12\r\n', 45), ('caldera True 00:15:10_06/05/12\r\n', 46), ('temp 31.5 00:15:10_06/05/12\r\n', 47), ('SCADA nz 00:15:10_06/05/12\r\n', 48), ('o2 04.8 00:15:12_06/05/12\r\n', 49), ('ph 07.6 00:15:13_06/05/12\r\n', 50), ('ph 07.5 00:15:14_06/05/12\r\no2 04.9 00:15:14_06/05/12\r\n', 51), ('ph 07.6 00:15:14_06/05/12\r\n', 52), ('o2 04.8 00:15:15_06/05/12\r\n', 53), ('ph 07.5 00:15:17_06/05/12\r\n', 54), ('ph 07.6 00:15:17_06/05/12\r\n', 55), ('ph 07.5 00:15:17_06/05/12\r\n', 56), ('o2 04.7 00:15:19_06/05/12\r\n', 57), ('temp 31.4 00:15:21_06/05/12\r\n', 58), (<orbited.cometsession.TCPPing object at 0x1fe8d50>, 59)]
+2012-05-06 00:15:21,849,849 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2012-05-06 00:15:21,849,849 DEBUG [orbited.cometsession.TCPConnectionResource] RECV: 11,314,ping00,
+2012-05-06 00:15:21,849,849 DEBUG [orbited.cometsession.TCPConnectionResource] ['11,314,ping00,', [], []]
+2012-05-06 00:15:21,850,850 DEBUG [orbited.cometsession.TCPConnectionResource] ['14,ping00,', [], ['3']]
+2012-05-06 00:15:21,850,850 DEBUG [orbited.cometsession.TCPConnectionResource] ['00,', [], ['3', 'ping']]
+2012-05-06 00:15:21,850,850 DEBUG [orbited.cometsession.TCPConnectionResource] parseData: frame=['3', 'ping', '']
+2012-05-06 00:15:21,850,850 DEBUG [orbited.cometsession.TCPConnectionResource] parseData: PING? PONG!
+2012-05-06 00:15:22,397,397 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.6 00:15:22_06/05/12\r\n' packetId=60
+2012-05-06 00:15:22,671,671 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:15:22_06/05/12\r\n' packetId=61
+2012-05-06 00:15:23,090,090 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.3 00:15:23_06/05/12\r\n' packetId=62
+2012-05-06 00:15:24,484,484 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.6 00:15:24_06/05/12\r\n' packetId=63
+2012-05-06 00:15:24,719,719 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:15:24_06/05/12\r\n' packetId=64
+2012-05-06 00:15:25,518,518 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.3 00:15:25_06/05/12\r\n' packetId=65
+2012-05-06 00:15:25,697,697 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:15:25_06/05/12\r\n' packetId=66
+2012-05-06 00:15:26,107,107 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:15:26_06/05/12\r\ntemp 31.3 00:15:26_06/05/12\r\n' packetId=67
+2012-05-06 00:15:26,743,743 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:15:26_06/05/12\r\no2 04.8 00:15:26_06/05/12\r\n' packetId=68
+2012-05-06 00:15:27,450,450 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.7 00:15:27_06/05/12\r\n' packetId=69
+2012-05-06 00:15:28,240,240 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.3 00:15:28_06/05/12\r\n' packetId=70
+2012-05-06 00:15:30,764,764 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:15:30_06/05/12\r\n' packetId=71
+2012-05-06 00:15:33,358,358 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.3 00:15:33_06/05/12\r\n' packetId=72
+2012-05-06 00:15:33,773,773 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:15:33_06/05/12\r\n' packetId=73
+2012-05-06 00:15:34,211,211 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.4 00:15:34_06/05/12\r\n' packetId=74
+2012-05-06 00:15:35,439,439 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:15:35_06/05/12\r\n' packetId=75
+2012-05-06 00:15:35,728,728 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.3 00:15:35_06/05/12\r\n' packetId=76
+2012-05-06 00:15:36,240,240 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.4 00:15:36_06/05/12\r\n' packetId=77
+2012-05-06 00:15:36,604,604 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:15:36_06/05/12\r\n' packetId=78
+2012-05-06 00:15:44,034,034 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='SCADA dnz 00:15:44_06/05/12\r\n' packetId=79
+2012-05-06 00:15:44,134,134 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:15:44_06/05/12\r\n' packetId=80
+2012-05-06 00:15:44,411,411 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='caldera False 00:15:44_06/05/12\r\n' packetId=81
+2012-05-06 00:15:45,083,083 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.8 00:15:45_06/05/12\r\n' packetId=82
+2012-05-06 00:15:49,250,250 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.3 00:15:49_06/05/12\r\no2 04.7 00:15:49_06/05/12\r\n' packetId=83
+2012-05-06 00:15:49,946,946 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.4 00:15:49_06/05/12\r\n' packetId=84
+2012-05-06 00:15:50,207,207 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:15:50_06/05/12\r\no2 04.8 00:15:50_06/05/12\r\n' packetId=85
+2012-05-06 00:15:50,635,635 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.4 00:15:50_06/05/12\r\no2 04.7 00:15:50_06/05/12\r\n' packetId=86
+2012-05-06 00:15:50,863,863 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:15:50_06/05/12\r\n' packetId=87
+2012-05-06 00:15:51,148,148 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.4 00:15:51_06/05/12\r\no2 04.8 00:15:51_06/05/12\r\n' packetId=88
+2012-05-06 00:15:51,443,443 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.7 00:15:51_06/05/12\r\n' packetId=89
+2012-05-06 00:15:51,773,773 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.8 00:15:51_06/05/12\r\n' packetId=90
+2012-05-06 00:15:51,849,849 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x1fe8d50> packetId=91
+2012-05-06 00:15:51,856,856 DEBUG [orbited.cometsession.TCPConnectionResource] render: request=<POST /tcp/0cac741e2f204d009cdef35c87873d01?nocache=0.2928739957076757&ack=91 HTTP/1.1>
+2012-05-06 00:15:51,856,856 DEBUG [orbited.cometsession.TCPConnectionResource] render: request.content='11,414,ping00,'
+2012-05-06 00:15:51,857,857 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=91
+2012-05-06 00:15:51,857,857 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[('ph 07.6 00:15:22_06/05/12\r\n', 60), ('ph 07.5 00:15:22_06/05/12\r\n', 61), ('temp 31.3 00:15:23_06/05/12\r\n', 62), ('ph 07.6 00:15:24_06/05/12\r\n', 63), ('temp 31.4 00:15:24_06/05/12\r\n', 64), ('temp 31.3 00:15:25_06/05/12\r\n', 65), ('temp 31.4 00:15:25_06/05/12\r\n', 66), ('ph 07.5 00:15:26_06/05/12\r\ntemp 31.3 00:15:26_06/05/12\r\n', 67), ('temp 31.4 00:15:26_06/05/12\r\no2 04.8 00:15:26_06/05/12\r\n', 68), ('o2 04.7 00:15:27_06/05/12\r\n', 69), ('temp 31.3 00:15:28_06/05/12\r\n', 70), ('temp 31.4 00:15:30_06/05/12\r\n', 71), ('temp 31.3 00:15:33_06/05/12\r\n', 72), ('temp 31.4 00:15:33_06/05/12\r\n', 73), ('ph 07.4 00:15:34_06/05/12\r\n', 74), ('ph 07.5 00:15:35_06/05/12\r\n', 75), ('temp 31.3 00:15:35_06/05/12\r\n', 76), ('ph 07.4 00:15:36_06/05/12\r\n', 77), ('ph 07.5 00:15:36_06/05/12\r\n', 78), ('SCADA dnz 00:15:44_06/05/12\r\n', 79), ('temp 31.4 00:15:44_06/05/12\r\n', 80), ('caldera False 00:15:44_06/05/12\r\n', 81), ('o2 04.8 00:15:45_06/05/12\r\n', 82), ('temp 31.3 00:15:49_06/05/12\r\no2 04.7 00:15:49_06/05/12\r\n', 83), ('ph 07.4 00:15:49_06/05/12\r\n', 84), ('ph 07.5 00:15:50_06/05/12\r\no2 04.8 00:15:50_06/05/12\r\n', 85), ('ph 07.4 00:15:50_06/05/12\r\no2 04.7 00:15:50_06/05/12\r\n', 86), ('ph 07.5 00:15:50_06/05/12\r\n', 87), ('ph 07.4 00:15:51_06/05/12\r\no2 04.8 00:15:51_06/05/12\r\n', 88), ('o2 04.7 00:15:51_06/05/12\r\n', 89), ('o2 04.8 00:15:51_06/05/12\r\n', 90), (<orbited.cometsession.TCPPing object at 0x1fe8d50>, 91)]
+2012-05-06 00:15:51,857,857 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2012-05-06 00:15:51,858,858 DEBUG [orbited.cometsession.TCPConnectionResource] RECV: 11,414,ping00,
+2012-05-06 00:15:51,858,858 DEBUG [orbited.cometsession.TCPConnectionResource] ['11,414,ping00,', [], []]
+2012-05-06 00:15:51,858,858 DEBUG [orbited.cometsession.TCPConnectionResource] ['14,ping00,', [], ['4']]
+2012-05-06 00:15:51,858,858 DEBUG [orbited.cometsession.TCPConnectionResource] ['00,', [], ['4', 'ping']]
+2012-05-06 00:15:51,859,859 DEBUG [orbited.cometsession.TCPConnectionResource] parseData: frame=['4', 'ping', '']
+2012-05-06 00:15:51,859,859 DEBUG [orbited.cometsession.TCPConnectionResource] parseData: PING? PONG!
+2012-05-06 00:15:52,201,201 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:15:52_06/05/12\r\ntemp 31.4 00:15:52_06/05/12\r\n' packetId=92
+2012-05-06 00:15:52,594,594 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.7 00:15:52_06/05/12\r\n' packetId=93
+2012-05-06 00:15:53,206,206 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.4 00:15:53_06/05/12\r\n' packetId=94
+2012-05-06 00:15:55,504,504 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.6 00:15:55_06/05/12\r\n' packetId=95
+2012-05-06 00:15:55,787,787 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:15:55_06/05/12\r\no2 04.7 00:15:55_06/05/12\r\n' packetId=96
+2012-05-06 00:15:56,245,245 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.6 00:15:56_06/05/12\r\n' packetId=97
+2012-05-06 00:15:56,872,872 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.7 00:15:56_06/05/12\r\n' packetId=98
+2012-05-06 00:15:56,956,956 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.6 00:15:56_06/05/12\r\n' packetId=99
+2012-05-06 00:15:58,767,767 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.3 00:15:58_06/05/12\r\n' packetId=100
+2012-05-06 00:15:59,257,257 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:15:59_06/05/12\r\no2 04.7 00:15:59_06/05/12\r\n' packetId=101
+2012-05-06 00:16:01,985,985 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.5 00:16:01_06/05/12\r\n' packetId=102
+2012-05-06 00:16:02,433,433 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.6 00:16:02_06/05/12\r\n' packetId=103
+2012-05-06 00:16:02,941,941 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.7 00:16:02_06/05/12\r\n' packetId=104
+2012-05-06 00:16:05,580,580 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.6 00:16:05_06/05/12\r\n' packetId=105
+2012-05-06 00:16:05,836,836 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.6 00:16:05_06/05/12\r\no2 04.7 00:16:05_06/05/12\r\n' packetId=106
+2012-05-06 00:16:06,284,284 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.6 00:16:06_06/05/12\r\n' packetId=107
+2012-05-06 00:16:08,963,963 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.7 00:16:08_06/05/12\r\n' packetId=108
+2012-05-06 00:16:09,389,389 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.6 00:16:09_06/05/12\r\no2 04.6 00:16:09_06/05/12\r\n' packetId=109
+2012-05-06 00:16:09,926,926 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.7 00:16:09_06/05/12\r\n' packetId=110
+2012-05-06 00:16:10,643,643 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.5 00:16:10_06/05/12\r\n' packetId=111
+2012-05-06 00:16:11,062,062 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.6 00:16:10_06/05/12\r\n' packetId=112
+2012-05-06 00:16:13,720,720 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.6 00:16:13_06/05/12\r\n' packetId=113
+2012-05-06 00:16:14,006,006 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.5 00:16:14_06/05/12\r\n' packetId=114
+2012-05-06 00:16:14,304,304 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.6 00:16:14_06/05/12\r\n' packetId=115
+2012-05-06 00:16:14,608,608 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.5 00:16:14_06/05/12\r\n' packetId=116
+2012-05-06 00:16:15,947,947 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.7 00:16:15_06/05/12\r\n' packetId=117
+2012-05-06 00:16:16,255,255 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.6 00:16:16_06/05/12\r\n' packetId=118
+2012-05-06 00:16:17,423,423 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='caldera True 00:16:17_06/05/12\r\n' packetId=119
+2012-05-06 00:16:17,936,936 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='SCADA nz 00:16:17_06/05/12\r\n' packetId=120
+2012-05-06 00:16:20,088,088 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.7 00:16:20_06/05/12\r\no2 04.7 00:16:20_06/05/12\r\n' packetId=121
+2012-05-06 00:16:20,357,357 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.6 00:16:20_06/05/12\r\n' packetId=122
+2012-05-06 00:16:21,858,858 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x1fe8d50> packetId=123
+2012-05-06 00:16:22,013,013 DEBUG [orbited.cometsession.TCPConnectionResource] render: request=<POST /tcp/0cac741e2f204d009cdef35c87873d01?nocache=0.2928739957076757&ack=123 HTTP/1.1>
+2012-05-06 00:16:22,014,014 DEBUG [orbited.cometsession.TCPConnectionResource] render: request.content='11,514,ping00,'
+2012-05-06 00:16:22,014,014 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=123
+2012-05-06 00:16:22,014,014 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[('ph 07.5 00:15:52_06/05/12\r\ntemp 31.4 00:15:52_06/05/12\r\n', 92), ('o2 04.7 00:15:52_06/05/12\r\n', 93), ('ph 07.4 00:15:53_06/05/12\r\n', 94), ('o2 04.6 00:15:55_06/05/12\r\n', 95), ('ph 07.5 00:15:55_06/05/12\r\no2 04.7 00:15:55_06/05/12\r\n', 96), ('o2 04.6 00:15:56_06/05/12\r\n', 97), ('o2 04.7 00:15:56_06/05/12\r\n', 98), ('o2 04.6 00:15:56_06/05/12\r\n', 99), ('temp 31.3 00:15:58_06/05/12\r\n', 100), ('temp 31.4 00:15:59_06/05/12\r\no2 04.7 00:15:59_06/05/12\r\n', 101), ('temp 31.5 00:16:01_06/05/12\r\n', 102), ('o2 04.6 00:16:02_06/05/12\r\n', 103), ('o2 04.7 00:16:02_06/05/12\r\n', 104), ('o2 04.6 00:16:05_06/05/12\r\n', 105), ('ph 07.6 00:16:05_06/05/12\r\no2 04.7 00:16:05_06/05/12\r\n', 106), ('o2 04.6 00:16:06_06/05/12\r\n', 107), ('o2 04.7 00:16:08_06/05/12\r\n', 108), ('temp 31.6 00:16:09_06/05/12\r\no2 04.6 00:16:09_06/05/12\r\n', 109), ('o2 04.7 00:16:09_06/05/12\r\n', 110), ('temp 31.5 00:16:10_06/05/12\r\n', 111), ('temp 31.6 00:16:10_06/05/12\r\n', 112), ('o2 04.6 00:16:13_06/05/12\r\n', 113), ('temp 31.5 00:16:14_06/05/12\r\n', 114), ('temp 31.6 00:16:14_06/05/12\r\n', 115), ('temp 31.5 00:16:14_06/05/12\r\n', 116), ('ph 07.7 00:16:15_06/05/12\r\n', 117), ('ph 07.6 00:16:16_06/05/12\r\n', 118), ('caldera True 00:16:17_06/05/12\r\n', 119), ('SCADA nz 00:16:17_06/05/12\r\n', 120), ('ph 07.7 00:16:20_06/05/12\r\no2 04.7 00:16:20_06/05/12\r\n', 121), ('o2 04.6 00:16:20_06/05/12\r\n', 122), (<orbited.cometsession.TCPPing object at 0x1fe8d50>, 123)]
+2012-05-06 00:16:22,015,015 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2012-05-06 00:16:22,017,017 DEBUG [orbited.cometsession.TCPConnectionResource] RECV: 11,514,ping00,
+2012-05-06 00:16:22,017,017 DEBUG [orbited.cometsession.TCPConnectionResource] ['11,514,ping00,', [], []]
+2012-05-06 00:16:22,018,018 DEBUG [orbited.cometsession.TCPConnectionResource] ['14,ping00,', [], ['5']]
+2012-05-06 00:16:22,018,018 DEBUG [orbited.cometsession.TCPConnectionResource] ['00,', [], ['5', 'ping']]
+2012-05-06 00:16:22,018,018 DEBUG [orbited.cometsession.TCPConnectionResource] parseData: frame=['5', 'ping', '']
+2012-05-06 00:16:22,018,018 DEBUG [orbited.cometsession.TCPConnectionResource] parseData: PING? PONG!
+2012-05-06 00:16:23,842,842 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:16:23_06/05/12\r\n' packetId=124
+2012-05-06 00:16:26,442,442 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:16:26_06/05/12\r\n' packetId=125
+2012-05-06 00:16:28,977,977 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.7 00:16:28_06/05/12\r\n' packetId=126
+2012-05-06 00:16:29,074,074 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.6 00:16:28_06/05/12\r\n' packetId=127
+2012-05-06 00:16:33,506,506 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.5 00:16:33_06/05/12\r\n' packetId=128
+2012-05-06 00:16:33,879,879 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.7 00:16:33_06/05/12\r\no2 04.6 00:16:33_06/05/12\r\n' packetId=129
+2012-05-06 00:16:36,162,162 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.5 00:16:36_06/05/12\r\n' packetId=130
+2012-05-06 00:16:36,909,909 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.6 00:16:36_06/05/12\r\n' packetId=131
+2012-05-06 00:16:37,779,779 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.5 00:16:37_06/05/12\r\n' packetId=132
+2012-05-06 00:16:38,205,205 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:16:38_06/05/12\r\no2 04.6 00:16:38_06/05/12\r\n' packetId=133
+2012-05-06 00:16:38,949,949 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.7 00:16:38_06/05/12\r\n' packetId=134
+2012-05-06 00:16:41,117,117 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.5 00:16:41_06/05/12\r\n' packetId=135
+2012-05-06 00:16:41,874,874 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:16:41_06/05/12\r\no2 04.6 00:16:41_06/05/12\r\n' packetId=136
+2012-05-06 00:16:42,239,239 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.3 00:16:42_06/05/12\r\no2 04.5 00:16:42_06/05/12\r\n' packetId=137
+2012-05-06 00:16:43,232,232 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:16:43_06/05/12\r\n' packetId=138
+2012-05-06 00:16:43,599,599 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.7 00:16:43_06/05/12\r\n' packetId=139
+2012-05-06 00:16:43,866,866 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.6 00:16:43_06/05/12\r\n' packetId=140
+2012-05-06 00:16:44,559,559 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.5 00:16:44_06/05/12\r\n' packetId=141
+2012-05-06 00:16:46,424,424 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.5 00:16:46_06/05/12\r\n' packetId=142
+2012-05-06 00:16:46,880,880 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:16:46_06/05/12\r\n' packetId=143
+2012-05-06 00:16:47,082,082 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.7 00:16:47_06/05/12\r\n' packetId=144
+2012-05-06 00:16:48,815,815 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.6 00:16:48_06/05/12\r\n' packetId=145
+2012-05-06 00:16:49,071,071 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.5 00:16:49_06/05/12\r\n' packetId=146
+2012-05-06 00:16:49,417,417 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.6 00:16:49_06/05/12\r\n' packetId=147
+2012-05-06 00:16:50,107,107 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.5 00:16:50_06/05/12\r\n' packetId=148
+2012-05-06 00:16:51,039,039 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.6 00:16:51_06/05/12\r\n' packetId=149
+2012-05-06 00:16:51,175,175 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='caldera False 00:16:51_06/05/12\r\nSCADA dnz 00:16:51_06/05/12\r\n' packetId=150
+2012-05-06 00:16:51,441,441 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.5 00:16:51_06/05/12\r\n' packetId=151
+2012-05-06 00:16:51,768,768 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.6 00:16:51_06/05/12\r\n' packetId=152
+2012-05-06 00:16:52,017,017 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x1fe8d50> packetId=153
+2012-05-06 00:16:52,023,023 DEBUG [orbited.cometsession.TCPConnectionResource] render: request=<POST /tcp/0cac741e2f204d009cdef35c87873d01?nocache=0.2928739957076757&ack=153 HTTP/1.1>
+2012-05-06 00:16:52,023,023 DEBUG [orbited.cometsession.TCPConnectionResource] render: request.content='11,614,ping00,'
+2012-05-06 00:16:52,023,023 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=153
+2012-05-06 00:16:52,024,024 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[('ph 07.8 00:16:23_06/05/12\r\n', 124), ('temp 31.4 00:16:26_06/05/12\r\n', 125), ('o2 04.7 00:16:28_06/05/12\r\n', 126), ('o2 04.6 00:16:28_06/05/12\r\n', 127), ('o2 04.5 00:16:33_06/05/12\r\n', 128), ('ph 07.7 00:16:33_06/05/12\r\no2 04.6 00:16:33_06/05/12\r\n', 129), ('o2 04.5 00:16:36_06/05/12\r\n', 130), ('o2 04.6 00:16:36_06/05/12\r\n', 131), ('o2 04.5 00:16:37_06/05/12\r\n', 132), ('ph 07.8 00:16:38_06/05/12\r\no2 04.6 00:16:38_06/05/12\r\n', 133), ('ph 07.7 00:16:38_06/05/12\r\n', 134), ('o2 04.5 00:16:41_06/05/12\r\n', 135), ('ph 07.8 00:16:41_06/05/12\r\no2 04.6 00:16:41_06/05/12\r\n', 136), ('temp 31.3 00:16:42_06/05/12\r\no2 04.5 00:16:42_06/05/12\r\n', 137), ('temp 31.4 00:16:43_06/05/12\r\n', 138), ('ph 07.7 00:16:43_06/05/12\r\n', 139), ('o2 04.6 00:16:43_06/05/12\r\n', 140), ('o2 04.5 00:16:44_06/05/12\r\n', 141), ('temp 31.5 00:16:46_06/05/12\r\n', 142), ('ph 07.8 00:16:46_06/05/12\r\n', 143), ('ph 07.7 00:16:47_06/05/12\r\n', 144), ('o2 04.6 00:16:48_06/05/12\r\n', 145), ('o2 04.5 00:16:49_06/05/12\r\n', 146), ('o2 04.6 00:16:49_06/05/12\r\n', 147), ('o2 04.5 00:16:50_06/05/12\r\n', 148), ('o2 04.6 00:16:51_06/05/12\r\n', 149), ('caldera False 00:16:51_06/05/12\r\nSCADA dnz 00:16:51_06/05/12\r\n', 150), ('o2 04.5 00:16:51_06/05/12\r\n', 151), ('o2 04.6 00:16:51_06/05/12\r\n', 152), (<orbited.cometsession.TCPPing object at 0x1fe8d50>, 153)]
+2012-05-06 00:16:52,024,024 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2012-05-06 00:16:52,025,025 DEBUG [orbited.cometsession.TCPConnectionResource] RECV: 11,614,ping00,
+2012-05-06 00:16:52,025,025 DEBUG [orbited.cometsession.TCPConnectionResource] ['11,614,ping00,', [], []]
+2012-05-06 00:16:52,025,025 DEBUG [orbited.cometsession.TCPConnectionResource] ['14,ping00,', [], ['6']]
+2012-05-06 00:16:52,025,025 DEBUG [orbited.cometsession.TCPConnectionResource] ['00,', [], ['6', 'ping']]
+2012-05-06 00:16:52,026,026 DEBUG [orbited.cometsession.TCPConnectionResource] parseData: frame=['6', 'ping', '']
+2012-05-06 00:16:52,026,026 DEBUG [orbited.cometsession.TCPConnectionResource] parseData: PING? PONG!
+2012-05-06 00:16:57,154,154 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.7 00:16:57_06/05/12\r\n' packetId=154
+2012-05-06 00:16:58,530,530 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.6 00:16:58_06/05/12\r\n' packetId=155
+2012-05-06 00:17:01,141,141 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.7 00:17:01_06/05/12\r\n' packetId=156
+2012-05-06 00:17:01,999,999 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.6 00:17:01_06/05/12\r\n' packetId=157
+2012-05-06 00:17:03,065,065 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.6 00:17:03_06/05/12\r\n' packetId=158
+2012-05-06 00:17:03,766,766 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.7 00:17:03_06/05/12\r\n' packetId=159
+2012-05-06 00:17:04,565,565 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.6 00:17:04_06/05/12\r\n' packetId=160
+2012-05-06 00:17:05,011,011 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.7 00:17:04_06/05/12\r\no2 04.6 00:17:04_06/05/12\r\n' packetId=161
+2012-05-06 00:17:05,933,933 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.6 00:17:05_06/05/12\r\n' packetId=162
+2012-05-06 00:17:07,023,023 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.5 00:17:06_06/05/12\r\n' packetId=163
+2012-05-06 00:17:07,236,236 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.6 00:17:07_06/05/12\r\n' packetId=164
+2012-05-06 00:17:07,812,812 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.5 00:17:07_06/05/12\r\n' packetId=165
+2012-05-06 00:17:11,603,603 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.5 00:17:11_06/05/12\r\n' packetId=166
+2012-05-06 00:17:12,329,329 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.6 00:17:12_06/05/12\r\n' packetId=167
+2012-05-06 00:17:13,867,867 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.5 00:17:13_06/05/12\r\n' packetId=168
+2012-05-06 00:17:14,443,443 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.6 00:17:14_06/05/12\r\n' packetId=169
+2012-05-06 00:17:15,553,553 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.5 00:17:15_06/05/12\r\n' packetId=170
+2012-05-06 00:17:19,024,024 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.6 00:17:18_06/05/12\r\n' packetId=171
+2012-05-06 00:17:19,878,878 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.5 00:17:19_06/05/12\r\n' packetId=172
+2012-05-06 00:17:20,584,584 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.6 00:17:20_06/05/12\r\n' packetId=173
+2012-05-06 00:17:22,025,025 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x1fe8d50> packetId=174
+2012-05-06 00:17:22,047,047 DEBUG [orbited.cometsession.TCPConnectionResource] render: request=<POST /tcp/0cac741e2f204d009cdef35c87873d01?nocache=0.2928739957076757&ack=174 HTTP/1.1>
+2012-05-06 00:17:22,048,048 DEBUG [orbited.cometsession.TCPConnectionResource] render: request.content='11,714,ping00,'
+2012-05-06 00:17:22,048,048 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=174
+2012-05-06 00:17:22,048,048 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[('o2 04.7 00:16:57_06/05/12\r\n', 154), ('o2 04.6 00:16:58_06/05/12\r\n', 155), ('o2 04.7 00:17:01_06/05/12\r\n', 156), ('o2 04.6 00:17:01_06/05/12\r\n', 157), ('temp 31.6 00:17:03_06/05/12\r\n', 158), ('o2 04.7 00:17:03_06/05/12\r\n', 159), ('ph 07.6 00:17:04_06/05/12\r\n', 160), ('ph 07.7 00:17:04_06/05/12\r\no2 04.6 00:17:04_06/05/12\r\n', 161), ('ph 07.6 00:17:05_06/05/12\r\n', 162), ('temp 31.5 00:17:06_06/05/12\r\n', 163), ('temp 31.6 00:17:07_06/05/12\r\n', 164), ('temp 31.5 00:17:07_06/05/12\r\n', 165), ('o2 04.5 00:17:11_06/05/12\r\n', 166), ('o2 04.6 00:17:12_06/05/12\r\n', 167), ('o2 04.5 00:17:13_06/05/12\r\n', 168), ('o2 04.6 00:17:14_06/05/12\r\n', 169), ('o2 04.5 00:17:15_06/05/12\r\n', 170), ('o2 04.6 00:17:18_06/05/12\r\n', 171), ('o2 04.5 00:17:19_06/05/12\r\n', 172), ('o2 04.6 00:17:20_06/05/12\r\n', 173), (<orbited.cometsession.TCPPing object at 0x1fe8d50>, 174)]
+2012-05-06 00:17:22,048,048 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2012-05-06 00:17:22,049,049 DEBUG [orbited.cometsession.TCPConnectionResource] RECV: 11,714,ping00,
+2012-05-06 00:17:22,049,049 DEBUG [orbited.cometsession.TCPConnectionResource] ['11,714,ping00,', [], []]
+2012-05-06 00:17:22,049,049 DEBUG [orbited.cometsession.TCPConnectionResource] ['14,ping00,', [], ['7']]
+2012-05-06 00:17:22,050,050 DEBUG [orbited.cometsession.TCPConnectionResource] ['00,', [], ['7', 'ping']]
+2012-05-06 00:17:22,050,050 DEBUG [orbited.cometsession.TCPConnectionResource] parseData: frame=['7', 'ping', '']
+2012-05-06 00:17:22,050,050 DEBUG [orbited.cometsession.TCPConnectionResource] parseData: PING? PONG!
+2012-05-06 00:17:23,359,359 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.6 00:17:23_06/05/12\r\n' packetId=175
+2012-05-06 00:17:24,491,491 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='caldera True 00:17:24_06/05/12\r\n' packetId=176
+2012-05-06 00:17:24,841,841 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='SCADA nz 00:17:24_06/05/12\r\n' packetId=177
+2012-05-06 00:17:26,908,908 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.7 00:17:26_06/05/12\r\n' packetId=178
+2012-05-06 00:17:27,730,730 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.6 00:17:27_06/05/12\r\n' packetId=179
+2012-05-06 00:17:28,096,096 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.7 00:17:27_06/05/12\r\n' packetId=180
+2012-05-06 00:17:28,644,644 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.5 00:17:28_06/05/12\r\n' packetId=181
+2012-05-06 00:17:29,164,164 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.6 00:17:28_06/05/12\r\n' packetId=182
+2012-05-06 00:17:29,775,775 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.7 00:17:29_06/05/12\r\n' packetId=183
+2012-05-06 00:17:32,399,399 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.6 00:17:32_06/05/12\r\n' packetId=184
+2012-05-06 00:17:32,731,731 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.6 00:17:32_06/05/12\r\n' packetId=185
+2012-05-06 00:17:33,090,090 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.5 00:17:32_06/05/12\r\n' packetId=186
+2012-05-06 00:17:33,601,601 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.7 00:17:33_06/05/12\r\n' packetId=187
+2012-05-06 00:17:33,989,989 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.6 00:17:33_06/05/12\r\n' packetId=188
+2012-05-06 00:17:36,865,865 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.7 00:17:36_06/05/12\r\n' packetId=189
+2012-05-06 00:17:37,398,398 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.4 00:17:37_06/05/12\r\n' packetId=190
+2012-05-06 00:17:43,355,355 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.7 00:17:43_06/05/12\r\n' packetId=191
+2012-05-06 00:17:44,843,843 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.8 00:17:44_06/05/12\r\n' packetId=192
+2012-05-06 00:17:45,122,122 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.7 00:17:45_06/05/12\r\no2 04.3 00:17:45_06/05/12\r\n' packetId=193
+2012-05-06 00:17:45,462,462 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.8 00:17:45_06/05/12\r\no2 04.4 00:17:45_06/05/12\r\n' packetId=194
+2012-05-06 00:17:46,793,793 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:17:46_06/05/12\r\n' packetId=195
+2012-05-06 00:17:47,858,858 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.3 00:17:47_06/05/12\r\n' packetId=196
+2012-05-06 00:17:48,256,256 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.4 00:17:48_06/05/12\r\n' packetId=197
+2012-05-06 00:17:48,477,477 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.7 00:17:48_06/05/12\r\n' packetId=198
+2012-05-06 00:17:50,783,783 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.9 00:17:50_06/05/12\r\n' packetId=199
+2012-05-06 00:17:51,890,890 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:17:51_06/05/12\r\n' packetId=200
+2012-05-06 00:17:52,049,049 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x1fe8d50> packetId=201
+2012-05-06 00:17:52,055,055 DEBUG [orbited.cometsession.TCPConnectionResource] render: request=<POST /tcp/0cac741e2f204d009cdef35c87873d01?nocache=0.2928739957076757&ack=201 HTTP/1.1>
+2012-05-06 00:17:52,055,055 DEBUG [orbited.cometsession.TCPConnectionResource] render: request.content='11,814,ping00,'
+2012-05-06 00:17:52,055,055 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=201
+2012-05-06 00:17:52,055,055 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[('temp 31.6 00:17:23_06/05/12\r\n', 175), ('caldera True 00:17:24_06/05/12\r\n', 176), ('SCADA nz 00:17:24_06/05/12\r\n', 177), ('ph 07.7 00:17:26_06/05/12\r\n', 178), ('ph 07.6 00:17:27_06/05/12\r\n', 179), ('ph 07.7 00:17:27_06/05/12\r\n', 180), ('o2 04.5 00:17:28_06/05/12\r\n', 181), ('ph 07.6 00:17:28_06/05/12\r\n', 182), ('ph 07.7 00:17:29_06/05/12\r\n', 183), ('ph 07.6 00:17:32_06/05/12\r\n', 184), ('o2 04.6 00:17:32_06/05/12\r\n', 185), ('o2 04.5 00:17:32_06/05/12\r\n', 186), ('ph 07.7 00:17:33_06/05/12\r\n', 187), ('ph 07.6 00:17:33_06/05/12\r\n', 188), ('ph 07.7 00:17:36_06/05/12\r\n', 189), ('o2 04.4 00:17:37_06/05/12\r\n', 190), ('temp 31.7 00:17:43_06/05/12\r\n', 191), ('temp 31.8 00:17:44_06/05/12\r\n', 192), ('temp 31.7 00:17:45_06/05/12\r\no2 04.3 00:17:45_06/05/12\r\n', 193), ('temp 31.8 00:17:45_06/05/12\r\no2 04.4 00:17:45_06/05/12\r\n', 194), ('ph 07.8 00:17:46_06/05/12\r\n', 195), ('o2 04.3 00:17:47_06/05/12\r\n', 196), ('o2 04.4 00:17:48_06/05/12\r\n', 197), ('temp 31.7 00:17:48_06/05/12\r\n', 198), ('ph 07.9 00:17:50_06/05/12\r\n', 199), ('ph 07.8 00:17:51_06/05/12\r\n', 200), (<orbited.cometsession.TCPPing object at 0x1fe8d50>, 201)]
+2012-05-06 00:17:52,056,056 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2012-05-06 00:17:52,056,056 DEBUG [orbited.cometsession.TCPConnectionResource] RECV: 11,814,ping00,
+2012-05-06 00:17:52,056,056 DEBUG [orbited.cometsession.TCPConnectionResource] ['11,814,ping00,', [], []]
+2012-05-06 00:17:52,057,057 DEBUG [orbited.cometsession.TCPConnectionResource] ['14,ping00,', [], ['8']]
+2012-05-06 00:17:52,057,057 DEBUG [orbited.cometsession.TCPConnectionResource] ['00,', [], ['8', 'ping']]
+2012-05-06 00:17:52,057,057 DEBUG [orbited.cometsession.TCPConnectionResource] parseData: frame=['8', 'ping', '']
+2012-05-06 00:17:52,058,058 DEBUG [orbited.cometsession.TCPConnectionResource] parseData: PING? PONG!
+2012-05-06 00:17:52,121,121 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.3 00:17:51_06/05/12\r\n' packetId=202
+2012-05-06 00:17:52,866,866 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.9 00:17:52_06/05/12\r\n' packetId=203
+2012-05-06 00:17:57,660,660 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:17:57_06/05/12\r\n' packetId=204
+2012-05-06 00:17:57,980,980 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='SCADA dnz 00:17:57_06/05/12\r\n' packetId=205
+2012-05-06 00:17:58,338,338 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='caldera False 00:17:58_06/05/12\r\n' packetId=206
+2012-05-06 00:17:58,827,827 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.9 00:17:58_06/05/12\r\n' packetId=207
+2012-05-06 00:18:00,944,944 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:18:00_06/05/12\r\n' packetId=208
+2012-05-06 00:18:01,353,353 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.6 00:18:01_06/05/12\r\n' packetId=209
+2012-05-06 00:18:01,578,578 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.9 00:18:01_06/05/12\r\n' packetId=210
+2012-05-06 00:18:01,842,842 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:18:01_06/05/12\r\n' packetId=211
+2012-05-06 00:18:03,329,329 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.9 00:18:03_06/05/12\r\no2 04.4 00:18:03_06/05/12\r\n' packetId=212
+2012-05-06 00:18:04,015,015 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:18:03_06/05/12\r\n' packetId=213
+2012-05-06 00:18:07,883,883 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.7 00:18:07_06/05/12\r\n' packetId=214
+2012-05-06 00:18:08,563,563 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.6 00:18:08_06/05/12\r\n' packetId=215
+2012-05-06 00:18:12,624,624 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.7 00:18:12_06/05/12\r\n' packetId=216
+2012-05-06 00:18:13,153,153 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.6 00:18:12_06/05/12\r\n' packetId=217
+2012-05-06 00:18:13,290,290 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.9 00:18:13_06/05/12\r\n' packetId=218
+2012-05-06 00:18:13,565,565 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:18:13_06/05/12\r\n' packetId=219
+2012-05-06 00:18:15,148,148 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.9 00:18:14_06/05/12\r\n' packetId=220
+2012-05-06 00:18:15,408,408 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.5 00:18:15_06/05/12\r\n' packetId=221
+2012-05-06 00:18:15,508,508 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:18:15_06/05/12\r\n' packetId=222
+2012-05-06 00:18:16,280,280 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.4 00:18:16_06/05/12\r\n' packetId=223
+2012-05-06 00:18:17,055,055 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.5 00:18:16_06/05/12\r\n' packetId=224
+2012-05-06 00:18:17,429,429 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.4 00:18:17_06/05/12\r\n' packetId=225
+2012-05-06 00:18:17,927,927 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.5 00:18:17_06/05/12\r\n' packetId=226
+2012-05-06 00:18:18,540,540 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.5 00:18:18_06/05/12\r\n' packetId=227
+2012-05-06 00:18:19,003,003 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.9 00:18:18_06/05/12\r\no2 04.4 00:18:18_06/05/12\r\n' packetId=228
+2012-05-06 00:18:19,374,374 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:18:19_06/05/12\r\n' packetId=229
+2012-05-06 00:18:20,138,138 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.9 00:18:19_06/05/12\r\n' packetId=230
+2012-05-06 00:18:21,091,091 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:18:20_06/05/12\r\n' packetId=231
+2012-05-06 00:18:22,056,056 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x1fe8d50> packetId=232
+2012-05-06 00:18:22,063,063 DEBUG [orbited.cometsession.TCPConnectionResource] render: request=<POST /tcp/0cac741e2f204d009cdef35c87873d01?nocache=0.2928739957076757&ack=232 HTTP/1.1>
+2012-05-06 00:18:22,063,063 DEBUG [orbited.cometsession.TCPConnectionResource] render: request.content='11,914,ping00,'
+2012-05-06 00:18:22,063,063 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=232
+2012-05-06 00:18:22,063,063 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[('o2 04.3 00:17:51_06/05/12\r\n', 202), ('ph 07.9 00:17:52_06/05/12\r\n', 203), ('ph 07.8 00:17:57_06/05/12\r\n', 204), ('SCADA dnz 00:17:57_06/05/12\r\n', 205), ('caldera False 00:17:58_06/05/12\r\n', 206), ('ph 07.9 00:17:58_06/05/12\r\n', 207), ('ph 07.8 00:18:00_06/05/12\r\n', 208), ('temp 31.6 00:18:01_06/05/12\r\n', 209), ('ph 07.9 00:18:01_06/05/12\r\n', 210), ('ph 07.8 00:18:01_06/05/12\r\n', 211), ('ph 07.9 00:18:03_06/05/12\r\no2 04.4 00:18:03_06/05/12\r\n', 212), ('ph 07.8 00:18:03_06/05/12\r\n', 213), ('temp 31.7 00:18:07_06/05/12\r\n', 214), ('temp 31.6 00:18:08_06/05/12\r\n', 215), ('temp 31.7 00:18:12_06/05/12\r\n', 216), ('temp 31.6 00:18:12_06/05/12\r\n', 217), ('ph 07.9 00:18:13_06/05/12\r\n', 218), ('ph 07.8 00:18:13_06/05/12\r\n', 219), ('ph 07.9 00:18:14_06/05/12\r\n', 220), ('o2 04.5 00:18:15_06/05/12\r\n', 221), ('ph 07.8 00:18:15_06/05/12\r\n', 222), ('o2 04.4 00:18:16_06/05/12\r\n', 223), ('o2 04.5 00:18:16_06/05/12\r\n', 224), ('o2 04.4 00:18:17_06/05/12\r\n', 225), ('temp 31.5 00:18:17_06/05/12\r\n', 226), ('o2 04.5 00:18:18_06/05/12\r\n', 227), ('ph 07.9 00:18:18_06/05/12\r\no2 04.4 00:18:18_06/05/12\r\n', 228), ('ph 07.8 00:18:19_06/05/12\r\n', 229), ('ph 07.9 00:18:19_06/05/12\r\n', 230), ('ph 07.8 00:18:20_06/05/12\r\n', 231), (<orbited.cometsession.TCPPing object at 0x1fe8d50>, 232)]
+2012-05-06 00:18:22,064,064 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2012-05-06 00:18:22,064,064 DEBUG [orbited.cometsession.TCPConnectionResource] RECV: 11,914,ping00,
+2012-05-06 00:18:22,064,064 DEBUG [orbited.cometsession.TCPConnectionResource] ['11,914,ping00,', [], []]
+2012-05-06 00:18:22,065,065 DEBUG [orbited.cometsession.TCPConnectionResource] ['14,ping00,', [], ['9']]
+2012-05-06 00:18:22,065,065 DEBUG [orbited.cometsession.TCPConnectionResource] ['00,', [], ['9', 'ping']]
+2012-05-06 00:18:22,065,065 DEBUG [orbited.cometsession.TCPConnectionResource] parseData: frame=['9', 'ping', '']
+2012-05-06 00:18:22,066,066 DEBUG [orbited.cometsession.TCPConnectionResource] parseData: PING? PONG!
+2012-05-06 00:18:23,050,050 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.5 00:18:22_06/05/12\r\n' packetId=233
+2012-05-06 00:18:23,491,491 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.9 00:18:23_06/05/12\r\no2 04.4 00:18:23_06/05/12\r\n' packetId=234
+2012-05-06 00:18:23,680,680 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.6 00:18:23_06/05/12\r\n' packetId=235
+2012-05-06 00:18:25,009,009 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:18:24_06/05/12\r\ntemp 31.5 00:18:24_06/05/12\r\n' packetId=236
+2012-05-06 00:18:28,335,335 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.9 00:18:28_06/05/12\r\n' packetId=237
+2012-05-06 00:18:29,044,044 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:18:28_06/05/12\r\n' packetId=238
+2012-05-06 00:18:30,719,719 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.9 00:18:30_06/05/12\r\n' packetId=239
+2012-05-06 00:18:31,564,564 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:18:31_06/05/12\r\n' packetId=240
+2012-05-06 00:18:31,749,749 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='caldera True 00:18:31_06/05/12\r\n' packetId=241
+2012-05-06 00:18:32,033,033 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.9 00:18:31_06/05/12\r\n' packetId=242
+2012-05-06 00:18:32,147,147 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='SCADA nz 00:18:32_06/05/12\r\n' packetId=243
+2012-05-06 00:18:35,684,684 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.6 00:18:35_06/05/12\r\n' packetId=244
+2012-05-06 00:18:36,134,134 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.5 00:18:35_06/05/12\r\n' packetId=245
+2012-05-06 00:18:37,029,029 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.3 00:18:36_06/05/12\r\n' packetId=246
+2012-05-06 00:18:37,642,642 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:18:37_06/05/12\r\ntemp 31.6 00:18:37_06/05/12\r\n' packetId=247
+2012-05-06 00:18:38,320,320 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.4 00:18:38_06/05/12\r\n' packetId=248
+2012-05-06 00:18:39,611,611 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.9 00:18:39_06/05/12\r\n' packetId=249
+2012-05-06 00:18:40,155,155 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:18:39_06/05/12\r\n' packetId=250
+2012-05-06 00:18:40,731,731 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.9 00:18:40_06/05/12\r\n' packetId=251
+2012-05-06 00:18:41,069,069 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:18:40_06/05/12\r\n' packetId=252
+2012-05-06 00:18:42,423,423 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.9 00:18:42_06/05/12\r\ntemp 31.7 00:18:42_06/05/12\r\n' packetId=253
+2012-05-06 00:18:42,720,720 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:18:42_06/05/12\r\n' packetId=254
+2012-05-06 00:18:43,899,899 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.6 00:18:43_06/05/12\r\no2 04.5 00:18:43_06/05/12\r\n' packetId=255
+2012-05-06 00:18:44,443,443 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.7 00:18:44_06/05/12\r\no2 04.4 00:18:44_06/05/12\r\n' packetId=256
+2012-05-06 00:18:46,732,732 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.6 00:18:46_06/05/12\r\n' packetId=257
+2012-05-06 00:18:52,064,064 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x1fe8d50> packetId=258
+2012-05-06 00:18:52,070,070 DEBUG [orbited.cometsession.TCPConnectionResource] render: request=<POST /tcp/0cac741e2f204d009cdef35c87873d01?nocache=0.2928739957076757&ack=258 HTTP/1.1>
+2012-05-06 00:18:52,071,071 DEBUG [orbited.cometsession.TCPConnectionResource] render: request.content='12,1014,ping00,'
+2012-05-06 00:18:52,071,071 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=258
+2012-05-06 00:18:52,072,072 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[('o2 04.5 00:18:22_06/05/12\r\n', 233), ('ph 07.9 00:18:23_06/05/12\r\no2 04.4 00:18:23_06/05/12\r\n', 234), ('temp 31.6 00:18:23_06/05/12\r\n', 235), ('ph 07.8 00:18:24_06/05/12\r\ntemp 31.5 00:18:24_06/05/12\r\n', 236), ('ph 07.9 00:18:28_06/05/12\r\n', 237), ('ph 07.8 00:18:28_06/05/12\r\n', 238), ('ph 07.9 00:18:30_06/05/12\r\n', 239), ('ph 07.8 00:18:31_06/05/12\r\n', 240), ('caldera True 00:18:31_06/05/12\r\n', 241), ('ph 07.9 00:18:31_06/05/12\r\n', 242), ('SCADA nz 00:18:32_06/05/12\r\n', 243), ('temp 31.6 00:18:35_06/05/12\r\n', 244), ('temp 31.5 00:18:35_06/05/12\r\n', 245), ('o2 04.3 00:18:36_06/05/12\r\n', 246), ('ph 07.8 00:18:37_06/05/12\r\ntemp 31.6 00:18:37_06/05/12\r\n', 247), ('o2 04.4 00:18:38_06/05/12\r\n', 248), ('ph 07.9 00:18:39_06/05/12\r\n', 249), ('ph 07.8 00:18:39_06/05/12\r\n', 250), ('ph 07.9 00:18:40_06/05/12\r\n', 251), ('ph 07.8 00:18:40_06/05/12\r\n', 252), ('ph 07.9 00:18:42_06/05/12\r\ntemp 31.7 00:18:42_06/05/12\r\n', 253), ('ph 07.8 00:18:42_06/05/12\r\n', 254), ('temp 31.6 00:18:43_06/05/12\r\no2 04.5 00:18:43_06/05/12\r\n', 255), ('temp 31.7 00:18:44_06/05/12\r\no2 04.4 00:18:44_06/05/12\r\n', 256), ('temp 31.6 00:18:46_06/05/12\r\n', 257), (<orbited.cometsession.TCPPing object at 0x1fe8d50>, 258)]
+2012-05-06 00:18:52,072,072 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2012-05-06 00:18:52,073,073 DEBUG [orbited.cometsession.TCPConnectionResource] RECV: 12,1014,ping00,
+2012-05-06 00:18:52,073,073 DEBUG [orbited.cometsession.TCPConnectionResource] ['12,1014,ping00,', [], []]
+2012-05-06 00:18:52,074,074 DEBUG [orbited.cometsession.TCPConnectionResource] ['14,ping00,', [], ['10']]
+2012-05-06 00:18:52,074,074 DEBUG [orbited.cometsession.TCPConnectionResource] ['00,', [], ['10', 'ping']]
+2012-05-06 00:18:52,074,074 DEBUG [orbited.cometsession.TCPConnectionResource] parseData: frame=['10', 'ping', '']
+2012-05-06 00:18:52,075,075 DEBUG [orbited.cometsession.TCPConnectionResource] parseData: PING? PONG!
+2012-05-06 00:18:54,762,762 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.9 00:18:54_06/05/12\r\ntemp 31.5 00:18:54_06/05/12\r\n' packetId=259
+2012-05-06 00:18:55,143,143 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.3 00:18:55_06/05/12\r\n' packetId=260
+2012-05-06 00:18:56,527,527 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:18:56_06/05/12\r\n' packetId=261
+2012-05-06 00:18:57,008,008 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.9 00:18:56_06/05/12\r\n' packetId=262
+2012-05-06 00:18:57,890,890 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:18:57_06/05/12\r\n' packetId=263
+2012-05-06 00:18:59,854,854 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.9 00:18:59_06/05/12\r\ntemp 31.4 00:18:59_06/05/12\r\n' packetId=264
+2012-05-06 00:19:00,984,984 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:19:00_06/05/12\r\n' packetId=265
+2012-05-06 00:19:02,157,157 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.5 00:19:01_06/05/12\r\no2 04.4 00:19:01_06/05/12\r\n' packetId=266
+2012-05-06 00:19:02,853,853 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:19:02_06/05/12\r\n' packetId=267
+2012-05-06 00:19:03,231,231 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.5 00:19:03_06/05/12\r\n' packetId=268
+2012-05-06 00:19:03,597,597 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.7 00:19:03_06/05/12\r\n' packetId=269
+2012-05-06 00:19:04,008,008 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:19:03_06/05/12\r\no2 04.3 00:19:03_06/05/12\r\n' packetId=270
+2012-05-06 00:19:04,510,510 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.4 00:19:04_06/05/12\r\n' packetId=271
+2012-05-06 00:19:05,188,188 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='SCADA dnz 00:19:04_06/05/12\r\n' packetId=272
+2012-05-06 00:19:05,466,466 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='caldera False 00:19:05_06/05/12\r\n' packetId=273
+2012-05-06 00:19:06,302,302 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:19:06_06/05/12\r\n' packetId=274
+2012-05-06 00:19:07,147,147 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.3 00:19:07_06/05/12\r\n' packetId=275
+2012-05-06 00:19:08,355,355 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:19:08_06/05/12\r\n' packetId=276
+2012-05-06 00:19:12,169,169 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.7 00:19:11_06/05/12\r\n' packetId=277
+2012-05-06 00:19:12,444,444 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.5 00:19:12_06/05/12\r\n' packetId=278
+2012-05-06 00:19:13,291,291 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:19:13_06/05/12\r\n' packetId=279
+2012-05-06 00:19:13,585,585 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.4 00:19:13_06/05/12\r\n' packetId=280
+2012-05-06 00:19:16,454,454 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.3 00:19:16_06/05/12\r\n' packetId=281
+2012-05-06 00:19:16,929,929 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:19:16_06/05/12\r\n' packetId=282
+2012-05-06 00:19:17,224,224 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.3 00:19:17_06/05/12\r\n' packetId=283
+2012-05-06 00:19:19,059,059 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:19:18_06/05/12\r\n' packetId=284
+2012-05-06 00:19:21,336,336 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.7 00:19:21_06/05/12\r\n' packetId=285
+2012-05-06 00:19:22,075,075 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x1fe8d50> packetId=286
+2012-05-06 00:19:22,083,083 DEBUG [orbited.cometsession.TCPConnectionResource] render: request=<POST /tcp/0cac741e2f204d009cdef35c87873d01?nocache=0.2928739957076757&ack=286 HTTP/1.1>
+2012-05-06 00:19:22,083,083 DEBUG [orbited.cometsession.TCPConnectionResource] render: request.content='12,1114,ping00,'
+2012-05-06 00:19:22,083,083 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=286
+2012-05-06 00:19:22,083,083 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[('ph 07.9 00:18:54_06/05/12\r\ntemp 31.5 00:18:54_06/05/12\r\n', 259), ('o2 04.3 00:18:55_06/05/12\r\n', 260), ('ph 07.8 00:18:56_06/05/12\r\n', 261), ('ph 07.9 00:18:56_06/05/12\r\n', 262), ('ph 07.8 00:18:57_06/05/12\r\n', 263), ('ph 07.9 00:18:59_06/05/12\r\ntemp 31.4 00:18:59_06/05/12\r\n', 264), ('ph 07.8 00:19:00_06/05/12\r\n', 265), ('temp 31.5 00:19:01_06/05/12\r\no2 04.4 00:19:01_06/05/12\r\n', 266), ('temp 31.4 00:19:02_06/05/12\r\n', 267), ('temp 31.5 00:19:03_06/05/12\r\n', 268), ('ph 07.7 00:19:03_06/05/12\r\n', 269), ('ph 07.8 00:19:03_06/05/12\r\no2 04.3 00:19:03_06/05/12\r\n', 270), ('o2 04.4 00:19:04_06/05/12\r\n', 271), ('SCADA dnz 00:19:04_06/05/12\r\n', 272), ('caldera False 00:19:05_06/05/12\r\n', 273), ('temp 31.4 00:19:06_06/05/12\r\n', 274), ('temp 31.3 00:19:07_06/05/12\r\n', 275), ('temp 31.4 00:19:08_06/05/12\r\n', 276), ('ph 07.7 00:19:11_06/05/12\r\n', 277), ('o2 04.5 00:19:12_06/05/12\r\n', 278), ('ph 07.8 00:19:13_06/05/12\r\n', 279), ('o2 04.4 00:19:13_06/05/12\r\n', 280), ('temp 31.3 00:19:16_06/05/12\r\n', 281), ('temp 31.4 00:19:16_06/05/12\r\n', 282), ('temp 31.3 00:19:17_06/05/12\r\n', 283), ('temp 31.4 00:19:18_06/05/12\r\n', 284), ('ph 07.7 00:19:21_06/05/12\r\n', 285), (<orbited.cometsession.TCPPing object at 0x1fe8d50>, 286)]
+2012-05-06 00:19:22,084,084 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2012-05-06 00:19:22,085,085 DEBUG [orbited.cometsession.TCPConnectionResource] RECV: 12,1114,ping00,
+2012-05-06 00:19:22,085,085 DEBUG [orbited.cometsession.TCPConnectionResource] ['12,1114,ping00,', [], []]
+2012-05-06 00:19:22,085,085 DEBUG [orbited.cometsession.TCPConnectionResource] ['14,ping00,', [], ['11']]
+2012-05-06 00:19:22,086,086 DEBUG [orbited.cometsession.TCPConnectionResource] ['00,', [], ['11', 'ping']]
+2012-05-06 00:19:22,086,086 DEBUG [orbited.cometsession.TCPConnectionResource] parseData: frame=['11', 'ping', '']
+2012-05-06 00:19:22,086,086 DEBUG [orbited.cometsession.TCPConnectionResource] parseData: PING? PONG!
+2012-05-06 00:19:30,577,577 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.3 00:19:30_06/05/12\r\n' packetId=287
+2012-05-06 00:19:30,925,925 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:19:30_06/05/12\r\n' packetId=288
+2012-05-06 00:19:32,213,213 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:19:32_06/05/12\r\n' packetId=289
+2012-05-06 00:19:34,918,918 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.3 00:19:34_06/05/12\r\n' packetId=290
+2012-05-06 00:19:36,754,754 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.4 00:19:36_06/05/12\r\n' packetId=291
+2012-05-06 00:19:37,052,052 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.3 00:19:36_06/05/12\r\no2 04.3 00:19:36_06/05/12\r\n' packetId=292
+2012-05-06 00:19:37,503,503 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:19:37_06/05/12\r\n' packetId=293
+2012-05-06 00:19:38,819,819 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='caldera True 00:19:38_06/05/12\r\n' packetId=294
+2012-05-06 00:19:39,326,326 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='SCADA nz 00:19:39_06/05/12\r\n' packetId=295
+2012-05-06 00:19:40,593,593 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.5 00:19:40_06/05/12\r\n' packetId=296
+2012-05-06 00:19:42,284,284 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.7 00:19:42_06/05/12\r\n' packetId=297
+2012-05-06 00:19:45,389,389 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.2 00:19:45_06/05/12\r\n' packetId=298
+2012-05-06 00:19:49,897,897 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.3 00:19:49_06/05/12\r\n' packetId=299
+2012-05-06 00:19:50,279,279 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:19:50_06/05/12\r\n' packetId=300
+2012-05-06 00:19:50,724,724 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.5 00:19:50_06/05/12\r\n' packetId=301
+2012-05-06 00:19:51,505,505 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.2 00:19:51_06/05/12\r\n' packetId=302
+2012-05-06 00:19:52,085,085 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x1fe8d50> packetId=303
+2012-05-06 00:19:52,093,093 DEBUG [orbited.cometsession.TCPConnectionResource] render: request=<POST /tcp/0cac741e2f204d009cdef35c87873d01?nocache=0.2928739957076757&ack=303 HTTP/1.1>
+2012-05-06 00:19:52,093,093 DEBUG [orbited.cometsession.TCPConnectionResource] render: request.content='12,1214,ping00,'
+2012-05-06 00:19:52,093,093 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=303
+2012-05-06 00:19:52,093,093 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[('temp 31.3 00:19:30_06/05/12\r\n', 287), ('ph 07.8 00:19:30_06/05/12\r\n', 288), ('temp 31.4 00:19:32_06/05/12\r\n', 289), ('o2 04.3 00:19:34_06/05/12\r\n', 290), ('o2 04.4 00:19:36_06/05/12\r\n', 291), ('temp 31.3 00:19:36_06/05/12\r\no2 04.3 00:19:36_06/05/12\r\n', 292), ('temp 31.4 00:19:37_06/05/12\r\n', 293), ('caldera True 00:19:38_06/05/12\r\n', 294), ('SCADA nz 00:19:39_06/05/12\r\n', 295), ('temp 31.5 00:19:40_06/05/12\r\n', 296), ('ph 07.7 00:19:42_06/05/12\r\n', 297), ('o2 04.2 00:19:45_06/05/12\r\n', 298), ('o2 04.3 00:19:49_06/05/12\r\n', 299), ('temp 31.4 00:19:50_06/05/12\r\n', 300), ('temp 31.5 00:19:50_06/05/12\r\n', 301), ('o2 04.2 00:19:51_06/05/12\r\n', 302), (<orbited.cometsession.TCPPing object at 0x1fe8d50>, 303)]
+2012-05-06 00:19:52,094,094 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2012-05-06 00:19:52,095,095 DEBUG [orbited.cometsession.TCPConnectionResource] RECV: 12,1214,ping00,
+2012-05-06 00:19:52,095,095 DEBUG [orbited.cometsession.TCPConnectionResource] ['12,1214,ping00,', [], []]
+2012-05-06 00:19:52,095,095 DEBUG [orbited.cometsession.TCPConnectionResource] ['14,ping00,', [], ['12']]
+2012-05-06 00:19:52,096,096 DEBUG [orbited.cometsession.TCPConnectionResource] ['00,', [], ['12', 'ping']]
+2012-05-06 00:19:52,096,096 DEBUG [orbited.cometsession.TCPConnectionResource] parseData: frame=['12', 'ping', '']
+2012-05-06 00:19:52,096,096 DEBUG [orbited.cometsession.TCPConnectionResource] parseData: PING? PONG!
+2012-05-06 00:19:55,609,609 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:19:55_06/05/12\r\n' packetId=304
+2012-05-06 00:19:56,474,474 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.6 00:19:56_06/05/12\r\n' packetId=305
+2012-05-06 00:19:57,076,076 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.5 00:19:56_06/05/12\r\n' packetId=306
+2012-05-06 00:19:57,946,946 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:19:57_06/05/12\r\n' packetId=307
+2012-05-06 00:19:58,295,295 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.3 00:19:58_06/05/12\r\n' packetId=308
+2012-05-06 00:19:58,724,724 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.6 00:19:58_06/05/12\r\ntemp 31.4 00:19:58_06/05/12\r\no2 04.2 00:19:58_06/05/12\r\n' packetId=309
+2012-05-06 00:19:59,049,049 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:19:58_06/05/12\r\ntemp 31.5 00:19:58_06/05/12\r\n' packetId=310
+2012-05-06 00:19:59,375,375 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.6 00:19:59_06/05/12\r\ntemp 31.4 00:19:59_06/05/12\r\n' packetId=311
+2012-05-06 00:19:59,828,828 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:19:59_06/05/12\r\n' packetId=312
+2012-05-06 00:20:07,939,939 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.4 00:20:07_06/05/12\r\n' packetId=313
+2012-05-06 00:20:08,223,223 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:20:08_06/05/12\r\n' packetId=314
+2012-05-06 00:20:09,522,522 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.4 00:20:09_06/05/12\r\n' packetId=315
+2012-05-06 00:20:09,794,794 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:20:09_06/05/12\r\n' packetId=316
+2012-05-06 00:20:10,659,659 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.3 00:20:10_06/05/12\r\n' packetId=317
+2012-05-06 00:20:12,106,106 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='SCADA dnz 00:20:11_06/05/12\r\n' packetId=318
+2012-05-06 00:20:12,481,481 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='caldera False 00:20:12_06/05/12\r\n' packetId=319
+2012-05-06 00:20:19,213,213 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:20:18_06/05/12\r\n' packetId=320
+2012-05-06 00:20:20,110,110 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.6 00:20:19_06/05/12\r\n' packetId=321
+2012-05-06 00:20:22,095,095 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x1fe8d50> packetId=322
+2012-05-06 00:20:22,103,103 DEBUG [orbited.cometsession.TCPConnectionResource] render: request=<POST /tcp/0cac741e2f204d009cdef35c87873d01?nocache=0.2928739957076757&ack=322 HTTP/1.1>
+2012-05-06 00:20:22,103,103 DEBUG [orbited.cometsession.TCPConnectionResource] render: request.content='12,1314,ping00,'
+2012-05-06 00:20:22,104,104 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=322
+2012-05-06 00:20:22,104,104 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[('temp 31.4 00:19:55_06/05/12\r\n', 304), ('ph 07.6 00:19:56_06/05/12\r\n', 305), ('temp 31.5 00:19:56_06/05/12\r\n', 306), ('ph 07.5 00:19:57_06/05/12\r\n', 307), ('o2 04.3 00:19:58_06/05/12\r\n', 308), ('ph 07.6 00:19:58_06/05/12\r\ntemp 31.4 00:19:58_06/05/12\r\no2 04.2 00:19:58_06/05/12\r\n', 309), ('ph 07.5 00:19:58_06/05/12\r\ntemp 31.5 00:19:58_06/05/12\r\n', 310), ('ph 07.6 00:19:59_06/05/12\r\ntemp 31.4 00:19:59_06/05/12\r\n', 311), ('ph 07.5 00:19:59_06/05/12\r\n', 312), ('ph 07.4 00:20:07_06/05/12\r\n', 313), ('ph 07.5 00:20:08_06/05/12\r\n', 314), ('ph 07.4 00:20:09_06/05/12\r\n', 315), ('ph 07.5 00:20:09_06/05/12\r\n', 316), ('temp 31.3 00:20:10_06/05/12\r\n', 317), ('SCADA dnz 00:20:11_06/05/12\r\n', 318), ('caldera False 00:20:12_06/05/12\r\n', 319), ('temp 31.4 00:20:18_06/05/12\r\n', 320), ('ph 07.6 00:20:19_06/05/12\r\n', 321), (<orbited.cometsession.TCPPing object at 0x1fe8d50>, 322)]
+2012-05-06 00:20:22,104,104 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2012-05-06 00:20:22,104,104 DEBUG [orbited.cometsession.TCPConnectionResource] RECV: 12,1314,ping00,
+2012-05-06 00:20:22,104,104 DEBUG [orbited.cometsession.TCPConnectionResource] ['12,1314,ping00,', [], []]
+2012-05-06 00:20:22,105,105 DEBUG [orbited.cometsession.TCPConnectionResource] ['14,ping00,', [], ['13']]
+2012-05-06 00:20:22,105,105 DEBUG [orbited.cometsession.TCPConnectionResource] ['00,', [], ['13', 'ping']]
+2012-05-06 00:20:22,105,105 DEBUG [orbited.cometsession.TCPConnectionResource] parseData: frame=['13', 'ping', '']
+2012-05-06 00:20:22,106,106 DEBUG [orbited.cometsession.TCPConnectionResource] parseData: PING? PONG!
+2012-05-06 00:20:22,468,468 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.5 00:20:22_06/05/12\r\n' packetId=323
+2012-05-06 00:20:24,281,281 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.6 00:20:24_06/05/12\r\n' packetId=324
+2012-05-06 00:20:25,716,716 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.3 00:20:25_06/05/12\r\n' packetId=325
+2012-05-06 00:20:25,986,986 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.2 00:20:25_06/05/12\r\n' packetId=326
+2012-05-06 00:20:26,289,289 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.3 00:20:26_06/05/12\r\n' packetId=327
+2012-05-06 00:20:26,901,901 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.2 00:20:26_06/05/12\r\n' packetId=328
+2012-05-06 00:20:28,424,424 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.3 00:20:28_06/05/12\r\n' packetId=329
+2012-05-06 00:20:29,542,542 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.2 00:20:29_06/05/12\r\n' packetId=330
+2012-05-06 00:20:29,915,915 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.3 00:20:29_06/05/12\r\n' packetId=331
+2012-05-06 00:20:30,400,400 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.7 00:20:30_06/05/12\r\ntemp 31.4 00:20:30_06/05/12\r\no2 04.3 00:20:30_06/05/12\r\n' packetId=332
+2012-05-06 00:20:30,757,757 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.2 00:20:30_06/05/12\r\n' packetId=333
+2012-05-06 00:20:31,212,212 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.3 00:20:31_06/05/12\r\no2 04.3 00:20:31_06/05/12\r\n' packetId=334
+2012-05-06 00:20:31,571,571 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:20:31_06/05/12\r\n' packetId=335
+2012-05-06 00:20:32,045,045 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.3 00:20:31_06/05/12\r\n' packetId=336
+2012-05-06 00:20:32,945,945 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:20:32_06/05/12\r\n' packetId=337
+2012-05-06 00:20:33,699,699 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.3 00:20:33_06/05/12\r\n' packetId=338
+2012-05-06 00:20:35,331,331 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.6 00:20:35_06/05/12\r\n' packetId=339
+2012-05-06 00:20:37,654,654 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.4 00:20:37_06/05/12\r\n' packetId=340
+2012-05-06 00:20:37,997,997 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.3 00:20:37_06/05/12\r\n' packetId=341
+2012-05-06 00:20:38,469,469 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.4 00:20:38_06/05/12\r\n' packetId=342
+2012-05-06 00:20:41,557,557 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.7 00:20:41_06/05/12\r\n' packetId=343
+2012-05-06 00:20:42,076,076 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.3 00:20:41_06/05/12\r\n' packetId=344
+2012-05-06 00:20:44,014,014 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.2 00:20:43_06/05/12\r\n' packetId=345
+2012-05-06 00:20:45,689,689 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.2 00:20:45_06/05/12\r\n' packetId=346
+2012-05-06 00:20:45,954,954 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='caldera True 00:20:45_06/05/12\r\nSCADA nz 00:20:45_06/05/12\r\n' packetId=347
+2012-05-06 00:20:45,970,970 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.3 00:20:45_06/05/12\r\n' packetId=348
+2012-05-06 00:20:46,359,359 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:20:46_06/05/12\r\n' packetId=349
+2012-05-06 00:20:47,799,799 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.7 00:20:47_06/05/12\r\n' packetId=350
+2012-05-06 00:20:49,224,224 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:20:49_06/05/12\r\no2 04.2 00:20:49_06/05/12\r\n' packetId=351
+2012-05-06 00:20:49,706,706 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.7 00:20:49_06/05/12\r\n' packetId=352
+2012-05-06 00:20:51,251,251 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.1 00:20:51_06/05/12\r\n' packetId=353
+2012-05-06 00:20:51,730,730 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:20:51_06/05/12\r\n' packetId=354
+2012-05-06 00:20:52,094,094 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.7 00:20:51_06/05/12\r\n' packetId=355
+2012-05-06 00:20:52,104,104 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x1fe8d50> packetId=356
+2012-05-06 00:20:52,112,112 DEBUG [orbited.cometsession.TCPConnectionResource] render: request=<POST /tcp/0cac741e2f204d009cdef35c87873d01?nocache=0.2928739957076757&ack=356 HTTP/1.1>
+2012-05-06 00:20:52,112,112 DEBUG [orbited.cometsession.TCPConnectionResource] render: request.content='12,1414,ping00,'
+2012-05-06 00:20:52,113,113 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=356
+2012-05-06 00:20:52,113,113 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[('ph 07.5 00:20:22_06/05/12\r\n', 323), ('ph 07.6 00:20:24_06/05/12\r\n', 324), ('o2 04.3 00:20:25_06/05/12\r\n', 325), ('o2 04.2 00:20:25_06/05/12\r\n', 326), ('o2 04.3 00:20:26_06/05/12\r\n', 327), ('o2 04.2 00:20:26_06/05/12\r\n', 328), ('o2 04.3 00:20:28_06/05/12\r\n', 329), ('o2 04.2 00:20:29_06/05/12\r\n', 330), ('temp 31.3 00:20:29_06/05/12\r\n', 331), ('ph 07.7 00:20:30_06/05/12\r\ntemp 31.4 00:20:30_06/05/12\r\no2 04.3 00:20:30_06/05/12\r\n', 332), ('o2 04.2 00:20:30_06/05/12\r\n', 333), ('temp 31.3 00:20:31_06/05/12\r\no2 04.3 00:20:31_06/05/12\r\n', 334), ('temp 31.4 00:20:31_06/05/12\r\n', 335), ('temp 31.3 00:20:31_06/05/12\r\n', 336), ('temp 31.4 00:20:32_06/05/12\r\n', 337), ('temp 31.3 00:20:33_06/05/12\r\n', 338), ('ph 07.6 00:20:35_06/05/12\r\n', 339), ('temp 31.4 00:20:37_06/05/12\r\n', 340), ('temp 31.3 00:20:37_06/05/12\r\n', 341), ('o2 04.4 00:20:38_06/05/12\r\n', 342), ('ph 07.7 00:20:41_06/05/12\r\n', 343), ('o2 04.3 00:20:41_06/05/12\r\n', 344), ('temp 31.2 00:20:43_06/05/12\r\n', 345), ('o2 04.2 00:20:45_06/05/12\r\n', 346), ('caldera True 00:20:45_06/05/12\r\nSCADA nz 00:20:45_06/05/12\r\n', 347), ('o2 04.3 00:20:45_06/05/12\r\n', 348), ('ph 07.8 00:20:46_06/05/12\r\n', 349), ('ph 07.7 00:20:47_06/05/12\r\n', 350), ('ph 07.8 00:20:49_06/05/12\r\no2 04.2 00:20:49_06/05/12\r\n', 351), ('ph 07.7 00:20:49_06/05/12\r\n', 352), ('temp 31.1 00:20:51_06/05/12\r\n', 353), ('ph 07.8 00:20:51_06/05/12\r\n', 354), ('ph 07.7 00:20:51_06/05/12\r\n', 355), (<orbited.cometsession.TCPPing object at 0x1fe8d50>, 356)]
+2012-05-06 00:20:52,113,113 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2012-05-06 00:20:52,114,114 DEBUG [orbited.cometsession.TCPConnectionResource] RECV: 12,1414,ping00,
+2012-05-06 00:20:52,115,115 DEBUG [orbited.cometsession.TCPConnectionResource] ['12,1414,ping00,', [], []]
+2012-05-06 00:20:52,115,115 DEBUG [orbited.cometsession.TCPConnectionResource] ['14,ping00,', [], ['14']]
+2012-05-06 00:20:52,115,115 DEBUG [orbited.cometsession.TCPConnectionResource] ['00,', [], ['14', 'ping']]
+2012-05-06 00:20:52,115,115 DEBUG [orbited.cometsession.TCPConnectionResource] parseData: frame=['14', 'ping', '']
+2012-05-06 00:20:52,116,116 DEBUG [orbited.cometsession.TCPConnectionResource] parseData: PING? PONG!
+2012-05-06 00:20:53,745,745 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.1 00:20:53_06/05/12\r\n' packetId=357
+2012-05-06 00:20:56,157,157 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:20:55_06/05/12\r\n' packetId=358
+2012-05-06 00:21:00,978,978 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.2 00:21:00_06/05/12\r\n' packetId=359
+2012-05-06 00:21:01,782,782 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.0 00:21:01_06/05/12\r\n' packetId=360
+2012-05-06 00:21:02,322,322 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.1 00:21:02_06/05/12\r\n' packetId=361
+2012-05-06 00:21:02,611,611 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.1 00:21:02_06/05/12\r\no2 04.0 00:21:02_06/05/12\r\n' packetId=362
+2012-05-06 00:21:03,668,668 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.1 00:21:03_06/05/12\r\n' packetId=363
+2012-05-06 00:21:04,506,506 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.0 00:21:04_06/05/12\r\n' packetId=364
+2012-05-06 00:21:05,724,724 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.2 00:21:05_06/05/12\r\no2 04.1 00:21:05_06/05/12\r\n' packetId=365
+2012-05-06 00:21:07,243,243 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.1 00:21:07_06/05/12\r\no2 04.0 00:21:07_06/05/12\r\n' packetId=366
+2012-05-06 00:21:08,240,240 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.1 00:21:08_06/05/12\r\n' packetId=367
+2012-05-06 00:21:16,286,286 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.0 00:21:16_06/05/12\r\n' packetId=368
+2012-05-06 00:21:17,122,122 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.1 00:21:16_06/05/12\r\n' packetId=369
+2012-05-06 00:21:19,014,014 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='SCADA dnz 00:21:18_06/05/12\r\n' packetId=370
+2012-05-06 00:21:19,719,719 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='caldera False 00:21:19_06/05/12\r\n' packetId=371
+2012-05-06 00:21:20,166,166 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.9 00:21:20_06/05/12\r\ntemp 31.2 00:21:20_06/05/12\r\n' packetId=372
+2012-05-06 00:21:20,777,777 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.1 00:21:20_06/05/12\r\n' packetId=373
+2012-05-06 00:21:21,903,903 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.2 00:21:21_06/05/12\r\no2 04.2 00:21:21_06/05/12\r\n' packetId=374
+2012-05-06 00:21:22,114,114 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x1fe8d50> packetId=375
+2012-05-06 00:21:22,279,279 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.1 00:21:22_06/05/12\r\no2 04.1 00:21:22_06/05/12\r\n' packetId=376
+2012-05-06 00:21:22,288,288 DEBUG [orbited.cometsession.TCPConnectionResource] render: request=<POST /tcp/0cac741e2f204d009cdef35c87873d01?nocache=0.2928739957076757&ack=375 HTTP/1.1>
+2012-05-06 00:21:22,288,288 DEBUG [orbited.cometsession.TCPConnectionResource] render: request.content='12,1514,ping00,'
+2012-05-06 00:21:22,288,288 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=375
+2012-05-06 00:21:22,289,289 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[('o2 04.1 00:20:53_06/05/12\r\n', 357), ('ph 07.8 00:20:55_06/05/12\r\n', 358), ('temp 31.2 00:21:00_06/05/12\r\n', 359), ('o2 04.0 00:21:01_06/05/12\r\n', 360), ('o2 04.1 00:21:02_06/05/12\r\n', 361), ('temp 31.1 00:21:02_06/05/12\r\no2 04.0 00:21:02_06/05/12\r\n', 362), ('o2 04.1 00:21:03_06/05/12\r\n', 363), ('o2 04.0 00:21:04_06/05/12\r\n', 364), ('temp 31.2 00:21:05_06/05/12\r\no2 04.1 00:21:05_06/05/12\r\n', 365), ('temp 31.1 00:21:07_06/05/12\r\no2 04.0 00:21:07_06/05/12\r\n', 366), ('o2 04.1 00:21:08_06/05/12\r\n', 367), ('o2 04.0 00:21:16_06/05/12\r\n', 368), ('o2 04.1 00:21:16_06/05/12\r\n', 369), ('SCADA dnz 00:21:18_06/05/12\r\n', 370), ('caldera False 00:21:19_06/05/12\r\n', 371), ('ph 07.9 00:21:20_06/05/12\r\ntemp 31.2 00:21:20_06/05/12\r\n', 372), ('temp 31.1 00:21:20_06/05/12\r\n', 373), ('temp 31.2 00:21:21_06/05/12\r\no2 04.2 00:21:21_06/05/12\r\n', 374), (<orbited.cometsession.TCPPing object at 0x1fe8d50>, 375), ('temp 31.1 00:21:22_06/05/12\r\no2 04.1 00:21:22_06/05/12\r\n', 376)]
+2012-05-06 00:21:22,289,289 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[('temp 31.1 00:21:22_06/05/12\r\no2 04.1 00:21:22_06/05/12\r\n', 376)]
+2012-05-06 00:21:22,290,290 DEBUG [orbited.cometsession.TCPConnectionResource] RECV: 12,1514,ping00,
+2012-05-06 00:21:22,290,290 DEBUG [orbited.cometsession.TCPConnectionResource] ['12,1514,ping00,', [], []]
+2012-05-06 00:21:22,290,290 DEBUG [orbited.cometsession.TCPConnectionResource] ['14,ping00,', [], ['15']]
+2012-05-06 00:21:22,290,290 DEBUG [orbited.cometsession.TCPConnectionResource] ['00,', [], ['15', 'ping']]
+2012-05-06 00:21:22,291,291 DEBUG [orbited.cometsession.TCPConnectionResource] parseData: frame=['15', 'ping', '']
+2012-05-06 00:21:22,291,291 DEBUG [orbited.cometsession.TCPConnectionResource] parseData: PING? PONG!
+2012-05-06 00:21:22,746,746 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 08.0 00:21:22_06/05/12\r\n' packetId=377
+2012-05-06 00:21:23,103,103 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.9 00:21:23_06/05/12\r\n' packetId=378
+2012-05-06 00:21:24,358,358 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.2 00:21:24_06/05/12\r\n' packetId=379
+2012-05-06 00:21:26,679,679 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.2 00:21:26_06/05/12\r\n' packetId=380
+2012-05-06 00:21:28,306,306 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.1 00:21:28_06/05/12\r\n' packetId=381
+2012-05-06 00:21:29,501,501 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.2 00:21:29_06/05/12\r\n' packetId=382
+2012-05-06 00:21:29,948,948 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 08.0 00:21:29_06/05/12\r\no2 04.3 00:21:29_06/05/12\r\n' packetId=383
+2012-05-06 00:21:30,687,687 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.1 00:21:30_06/05/12\r\n' packetId=384
+2012-05-06 00:21:30,987,987 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.2 00:21:30_06/05/12\r\n' packetId=385
+2012-05-06 00:21:33,899,899 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.3 00:21:33_06/05/12\r\n' packetId=386
+2012-05-06 00:21:34,702,702 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.2 00:21:34_06/05/12\r\n' packetId=387
+2012-05-06 00:21:40,637,637 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.9 00:21:40_06/05/12\r\n' packetId=388
+2012-05-06 00:21:41,539,539 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.3 00:21:41_06/05/12\r\n' packetId=389
+2012-05-06 00:21:43,835,835 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.2 00:21:43_06/05/12\r\n' packetId=390
+2012-05-06 00:21:45,199,199 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.3 00:21:44_06/05/12\r\n' packetId=391
+2012-05-06 00:21:49,742,742 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='temp 31.2 00:21:49_06/05/12\r\n' packetId=392
+2012-05-06 00:21:50,289,289 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:21:50_06/05/12\r\n' packetId=393
+2012-05-06 00:21:51,298,298 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.9 00:21:51_06/05/12\r\n' packetId=394
+2012-05-06 00:21:51,620,620 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:21:51_06/05/12\r\n' packetId=395
+2012-05-06 00:21:52,290,290 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x1fe8d50> packetId=396
+2012-05-06 00:21:52,463,463 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='caldera True 00:21:52_06/05/12\r\n' packetId=397
+2012-05-06 00:21:52,507,507 DEBUG [orbited.cometsession.TCPConnectionResource] render: request=<POST /tcp/0cac741e2f204d009cdef35c87873d01?nocache=0.2928739957076757&ack=396 HTTP/1.1>
+2012-05-06 00:21:52,508,508 DEBUG [orbited.cometsession.TCPConnectionResource] render: request.content='12,1614,ping00,'
+2012-05-06 00:21:52,508,508 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=396
+2012-05-06 00:21:52,509,509 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[('temp 31.1 00:21:22_06/05/12\r\no2 04.1 00:21:22_06/05/12\r\n', 376), ('ph 08.0 00:21:22_06/05/12\r\n', 377), ('ph 07.9 00:21:23_06/05/12\r\n', 378), ('o2 04.2 00:21:24_06/05/12\r\n', 379), ('temp 31.2 00:21:26_06/05/12\r\n', 380), ('temp 31.1 00:21:28_06/05/12\r\n', 381), ('temp 31.2 00:21:29_06/05/12\r\n', 382), ('ph 08.0 00:21:29_06/05/12\r\no2 04.3 00:21:29_06/05/12\r\n', 383), ('temp 31.1 00:21:30_06/05/12\r\n', 384), ('o2 04.2 00:21:30_06/05/12\r\n', 385), ('o2 04.3 00:21:33_06/05/12\r\n', 386), ('o2 04.2 00:21:34_06/05/12\r\n', 387), ('ph 07.9 00:21:40_06/05/12\r\n', 388), ('o2 04.3 00:21:41_06/05/12\r\n', 389), ('o2 04.2 00:21:43_06/05/12\r\n', 390), ('o2 04.3 00:21:44_06/05/12\r\n', 391), ('temp 31.2 00:21:49_06/05/12\r\n', 392), ('ph 07.8 00:21:50_06/05/12\r\n', 393), ('ph 07.9 00:21:51_06/05/12\r\n', 394), ('ph 07.8 00:21:51_06/05/12\r\n', 395), (<orbited.cometsession.TCPPing object at 0x1fe8d50>, 396), ('caldera True 00:21:52_06/05/12\r\n', 397)]
+2012-05-06 00:21:52,509,509 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[('caldera True 00:21:52_06/05/12\r\n', 397)]
+2012-05-06 00:21:52,510,510 DEBUG [orbited.cometsession.TCPConnectionResource] RECV: 12,1614,ping00,
+2012-05-06 00:21:52,510,510 DEBUG [orbited.cometsession.TCPConnectionResource] ['12,1614,ping00,', [], []]
+2012-05-06 00:21:52,510,510 DEBUG [orbited.cometsession.TCPConnectionResource] ['14,ping00,', [], ['16']]
+2012-05-06 00:21:52,510,510 DEBUG [orbited.cometsession.TCPConnectionResource] ['00,', [], ['16', 'ping']]
+2012-05-06 00:21:52,511,511 DEBUG [orbited.cometsession.TCPConnectionResource] parseData: frame=['16', 'ping', '']
+2012-05-06 00:21:52,512,512 DEBUG [orbited.cometsession.TCPConnectionResource] parseData: PING? PONG!
+2012-05-06 00:21:52,981,981 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='SCADA nz 00:21:52_06/05/12\r\n' packetId=398
+2012-05-06 00:21:54,419,419 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.9 00:21:54_06/05/12\r\n' packetId=399
+2012-05-06 00:21:58,147,147 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 08.0 00:21:57_06/05/12\r\n' packetId=400
+2012-05-06 00:22:00,016,016 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.9 00:21:59_06/05/12\r\n' packetId=401
+2012-05-06 00:22:00,555,555 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 08.0 00:22:00_06/05/12\r\n' packetId=402
+2012-05-06 00:22:00,845,845 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.9 00:22:00_06/05/12\r\n' packetId=403
+2012-05-06 00:22:05,007,007 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.2 00:22:04_06/05/12\r\n' packetId=404
+2012-05-06 00:22:05,555,555 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='o2 04.3 00:22:05_06/05/12\r\n' packetId=405
+2012-05-06 00:22:06,396,396 DEBUG [orbited.cometsession.TCPConnectionResource] _send data='ph 07.8 00:22:06_06/05/12\r\n' packetId=406
+2012-05-06 00:22:08,226,226 DEBUG [orbited.cometsession.TCPConnectionResource] close reason=loseConnection <orbited.cometsession.TCPConnectionResource instance at 0x1ffa6c8>
+2012-05-06 00:22:08,226,226 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPClose object at 0x1ff9c50> packetId=407
+2012-05-06 00:22:08,227,227 DEBUG [orbited.cometsession.TCPConnectionResource] connectionLost... already triggered? False
+2012-05-06 00:22:08,227,227 DEBUG [orbited.cometsession.TCPConnectionResource] do trigger
